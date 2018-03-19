@@ -7,7 +7,7 @@ import { StyleSheet,
 
 import Swiper from 'react-native-swiper';
 
-export default class SplashScreen extends Component {
+export default class WelcomeScreen extends Component {
     static navigationOptions = {
         header: null
     };

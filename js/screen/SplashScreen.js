@@ -2,7 +2,7 @@ import React, { Component } from 'react';
 import { View, Text, StyleSheet } from 'react-native';
 import MyStorage from "../utils/MyStorage";
 
-export default class StartUp extends Component {
+export default class SplashScreen extends Component {
     static navigationOptions = {
         header: null
     };
@@ -14,7 +14,7 @@ export default class StartUp extends Component {
             MyStorage._getInstance();
             MyStorage._load('isInit', null, null, (isInit) => {
                 if (!isInit) {
-                    navigate('SplashScreen');
+                    navigate('WelcomeScreen');
                     MyStorage._save('isInit', true)
                 } else {
                     navigate('Tabs')
