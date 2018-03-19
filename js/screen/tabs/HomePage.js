@@ -1,5 +1,5 @@
 import React from 'react';
-import { ScrollView, Text, View, Image, StyleSheet } from 'react-native';
+import { ScrollView, View, Platform, Text, Image, StyleSheet } from 'react-native';
 
 import { BasePage, SearchInput, Carousel, Label, Toast } from 'teaset'
 
@@ -10,17 +10,21 @@ export default class HomePage extends BasePage {
     renderPage() {
         return(
             <ScrollView style={styles.container}>
-                <SearchInput style={{width: 200}}
-                             placeholder='找工作'
-                             onFocus={() => {
-                                 this.navigator.push({view: <SearchScreen/>})
-                             }}/>
+                <View style={styles.header}>
+                    <SearchInput
+                        style={{width: 200}}
+                        placeholder='找工作'
+                        onFocus={() => {
+                            this.navigator.push({view: <SearchScreen/>})
+                        }}/>
+                </View>
 
-                <Carousel style={styles.carousel}
-                          control={<Carousel.Control
-                              style={{alignItems: 'flex-end'}}
-                              dot={<Text style={{backgroundColor: 'rgba(0, 0, 0, 0)', color: '#5bc0de', padding: 4}}>☆</Text>}
-                              activeDot={<Text style={{backgroundColor: 'rgba(0, 0, 0, 0)', color: '#5bc0de', padding: 4}}>★</Text>}/>}>
+                <Carousel
+                    style={styles.carousel}
+                    control={<Carousel.Control
+                        style={{alignItems: 'flex-end'}}
+                        dot={<Text style={styles.dot}>☆</Text>}
+                        activeDot={<Text style={styles.activeDot}>★</Text>}/>}>
                     <View style={styles.slide1}>
                         <Image source={require('../../../img/dyp.png')}/>
                     </View>
@@ -49,8 +53,27 @@ const styles = StyleSheet.create({
     container: {
         flex: 1
     },
+    header: {
+        flexDirection: 'row',
+        paddingLeft: 10,
+        paddingRight: 10,
+        paddingTop: Platform.OS === 'ios' ? 20 : 0,
+        height: Platform.OS === 'ios' ? 68 : 48,
+        backgroundColor: '#ff4500',
+        alignItems: 'center'
+    },
     carousel: {
         height: 200
+    },
+    dot: {
+        backgroundColor: 'rgba(0, 0, 0, 0)',
+        color: '#5bc0de',
+        padding: 4
+    },
+    activeDot: {
+        backgroundColor: 'rgba(0, 0, 0, 0)',
+        color: '#5bc0de',
+        padding: 4
     },
     slide1: {
         flex: 1,
