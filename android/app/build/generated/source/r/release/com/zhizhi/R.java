@@ -1817,7 +1817,19 @@ containing a value of this type.
         public static final int node_modules_reactnativeelements_src_rating_images_star=0x7f020042;
         public static final int node_modules_reactnavigation_src_views_assets_backicon=0x7f020043;
         public static final int node_modules_reactnavigation_src_views_assets_backiconmask=0x7f020044;
-        public static final int notification_template_icon_bg=0x7f020045;
+        public static final int node_modules_teaset_icons_check=0x7f020045;
+        public static final int node_modules_teaset_icons_checked=0x7f020046;
+        public static final int node_modules_teaset_icons_fail=0x7f020047;
+        public static final int node_modules_teaset_icons_indicator=0x7f020048;
+        public static final int node_modules_teaset_icons_info=0x7f020049;
+        public static final int node_modules_teaset_icons_sad=0x7f02004a;
+        public static final int node_modules_teaset_icons_search=0x7f02004b;
+        public static final int node_modules_teaset_icons_select=0x7f02004c;
+        public static final int node_modules_teaset_icons_smile=0x7f02004d;
+        public static final int node_modules_teaset_icons_stop=0x7f02004e;
+        public static final int node_modules_teaset_icons_success=0x7f02004f;
+        public static final int node_modules_teaset_icons_unchecked=0x7f020050;
+        public static final int notification_template_icon_bg=0x7f020051;
     }
     public static final class id {
         public static final int action0=0x7f0d0058;

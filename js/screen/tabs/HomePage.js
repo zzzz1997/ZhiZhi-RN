@@ -1,151 +1,56 @@
-import React, { Component } from 'react';
-import { View,
-    Image,
-    Text,
-    TextInput,
-    StyleSheet } from 'react-native';
+import React from 'react';
+import { ScrollView, Text, View, Image, StyleSheet } from 'react-native';
 
-import { Icon } from 'react-native-elements';
-import Swiper from 'react-native-swiper';
-import Toast from 'react-native-easy-toast';
+import { BasePage, SearchInput, Carousel, Label, Toast } from 'teaset'
+
+import SearchScreen from "../SearchScreen";
 import ImageButton from "../../common/ImageButton";
 
-export default class HomePage extends Component {
-    constructor(props) {
-        super(props);
-        this.state = {
-            swiperShow: false
-        }
-    }
+export default class HomePage extends BasePage {
+    renderPage() {
+        return(
+            <ScrollView style={styles.container}>
+                <SearchInput style={{width: 200}}
+                             placeholder='找工作'
+                             onFocus={() => {
+                                 this.navigator.push({view: <SearchScreen/>})
+                             }}/>
 
-    componentDidMount() {
-        setTimeout(() => {
-            this.setState({
-                swiperShow: true
-            })
-        })
-    }
-
-    render() {
-        if(this.state.swiperShow) {
-            return(
-                <View style={styles.container}>
-                    <View style={styles.content} >
-                        <View style={styles.header}>
-                            <Text style={styles.location}>昆明</Text>
-                            <Icon name={'location'}
-                                  type={'evilicon'}
-                                  color={'#d5d5d5'}/>
-                            <Icon name={'search'}
-                                  color={'#d5d5d5'}
-                                  containerStyle={styles.searchIcon}/>
-                            <TextInput style={styles.textInput}
-                                       underlineColorAndroid='transparent'
-                                       placeholder={'找工作'}
-                                       onFocus={() => {
-                                           this.props.navigation.navigate('SearchScreen')
-                                       }}/>
-                            <Icon name={'qrcode-scan'}
-                                  type={'material-community'}
-                                  color={'#d5d5d5'}
-                                  containerStyle={styles.scanIcon}/>
-                        </View>
-
+                <Carousel style={styles.carousel}
+                          control={<Carousel.Control
+                              style={{alignItems: 'flex-end'}}
+                              dot={<Text style={{backgroundColor: 'rgba(0, 0, 0, 0)', color: '#5bc0de', padding: 4}}>☆</Text>}
+                              activeDot={<Text style={{backgroundColor: 'rgba(0, 0, 0, 0)', color: '#5bc0de', padding: 4}}>★</Text>}/>}>
+                    <View style={styles.slide1}>
+                        <Image source={require('../../../img/dyp.png')}/>
                     </View>
 
-                    <Swiper style={styles.wrapper} height={200} horizontal={true} autoplay>
-                        <View style={styles.slide1}>
-                            <Image source={require('../../../img/dyp.png')}/>
-                        </View>
-                        <View style={styles.slide2}>
-                            <Text style={styles.text}>Beautiful</Text>
-                        </View>
-                        <View style={styles.slide3}>
-                            <Text style={styles.text}>And simple</Text>
-                        </View>
-                    </Swiper>
-
-                    <View style={styles.imageButtonGroup}>
-                        <ImageButton image={require('../../../img/dyp.png')}
-                                     text={'测试'}
-                                     tag={'test'}
-                                     onClick={(title, tag) => {
-                                         this.toast.show(title + tag)
-                                     }}/>
+                    <View style={styles.slide2}>
+                        <Label style={styles.text}>Beautiful</Label>
                     </View>
 
-                    <Toast ref={toast => this.toast = toast}/>
-                </View>
-            )
-        } else {
-            return(
-                <View style={styles.container}>
-                    <View style={styles.content} >
-                        <View style={styles.header}>
-                            <Text style={styles.location}>昆明</Text>
-                            <Icon name={'location'}
-                                  type={'evilicon'}
-                                  color={'#d5d5d5'}/>
-                            <Icon name={'search'}
-                                  color={'#d5d5d5'}
-                                  containerStyle={styles.searchIcon}/>
-                            <TextInput style={styles.textInput}
-                                       underlineColorAndroid='transparent'
-                                       placeholder={'找工作'}
-                                       onFocus={() => {
-                                           this.props.navigation.navigate('SearchScreen')
-                                       }}/>
-                            <Icon name={'qrcode-scan'}
-                                  type={'material-community'}
-                                  color={'#d5d5d5'}
-                                  containerStyle={styles.scanIcon}/>
-                        </View>
-
+                    <View style={styles.slide3}>
+                        <Label style={styles.text}>And simple</Label>
                     </View>
-
-                    <View style={styles.imageButtonGroup}>
-                        <ImageButton image={require('../../../img/dyp.png')}
-                                     text={'测试'}
-                                     tag={'test'}
-                                     onClick={(title, tag) => {
-                                         this.toast.show(title + tag)
-                                     }}/>
-                    </View>
-
-                    <Toast ref={toast => this.toast = toast}/>
-                </View>
-            )
-        }
+                </Carousel>
+                
+                <ImageButton image={require('../../../img/dyp.png')}
+                    text={'电影票'}
+                    tag={'test'}
+                    onClick={(title, tag) => {
+                        Toast.message(title + tag)
+                }}/>
+            </ScrollView>
+        )
     }
 }
 
 const styles = StyleSheet.create({
     container: {
-        height: 300
+        flex: 1
     },
-    content: {
-        backgroundColor: 'orangered',
-        height: 50
-    },
-    header: {
-        backgroundColor: 'white',
-        flexDirection: 'row',
-        alignItems: 'center',
-        flex: 1,
-        margin: 10
-    },
-    location: {
-        paddingStart: 20
-    },
-    searchIcon: {
-        paddingStart: 5
-    },
-    textInput: {
-        flex: 1,
-        padding: 0
-    },
-    scanIcon: {
-        marginEnd: 5
+    carousel: {
+        height: 200
     },
     slide1: {
         flex: 1,
@@ -165,11 +70,7 @@ const styles = StyleSheet.create({
         alignItems: 'center',
         backgroundColor: '#92BBD9'
     },
-    text:{
+    text: {
         fontSize: 20
-    },
-    imageButtonGroup: {
-        flexDirection: 'row',
-        height: 60
     }
 });

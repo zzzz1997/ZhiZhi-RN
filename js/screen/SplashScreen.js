@@ -1,23 +1,22 @@
-import React, { Component } from 'react';
+import React from 'react';
 import { View, Text, StyleSheet } from 'react-native';
+
+import { BasePage } from 'teaset';
+
 import MyStorage from "../utils/MyStorage";
+import WelcomeScreen from "./WelcomeScreen";
+import MainScreen from "./MainScreen";
 
-export default class SplashScreen extends Component {
-    static navigationOptions = {
-        header: null
-    };
-
-    componentDidMount() {
-        const { navigate } = this.props.navigation;
-
+export default class SplashScreen extends BasePage {
+    onDidFocus() {
         this.timer = setTimeout(() => {
             MyStorage._getInstance();
             MyStorage._load('isInit', null, null, (isInit) => {
                 if (!isInit) {
-                    navigate('WelcomeScreen');
+                    this.navigator.push({view: <WelcomeScreen/>});
                     MyStorage._save('isInit', true)
                 } else {
-                    navigate('Tabs')
+                    this.navigator.push({view: <MainScreen/>})
                 }
             })
         }, 2000);
@@ -27,22 +26,19 @@ export default class SplashScreen extends Component {
         clearTimeout(this.timer);
     }
 
-    render() {
+    renderPage() {
         return(
-            <View style={styles.welcome}>
-                <Text style={styles.text}>Welcome!</Text>
+            <View style={styles.container}>
+                <Text>Welcome!</Text>
             </View>
         )
     }
 }
 
 const styles = StyleSheet.create({
-    welcome: {
+    container: {
         flex: 1,
         justifyContent: 'center',
         alignItems: 'center'
-    },
-    text: {
-        fontSize: 20
     }
 });

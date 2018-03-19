@@ -1,14 +1,13 @@
-import { StackNavigator } from 'react-navigation'
-import WelcomeScreen from "./js/screen/WelcomeScreen";
+import React, { Component } from "react";
+
+import { TeaNavigator, Theme } from 'teaset'
+
 import SplashScreen from "./js/screen/SplashScreen";
-import SearchScreen from "./js/screen/SearchScreen";
-import Tabs from "./js/screen/tabs/Tabs";
 
-const App = StackNavigator({
-    SplashScreen: SplashScreen,
-    WelcomeScreen: WelcomeScreen,
-    Tabs: Tabs,
-    SearchScreen: SearchScreen
-});
+Theme.set({fitIPhoneX:true});
 
-export default App;
+export default class App extends Component<{}> {
+    render() {
+        return <TeaNavigator rootView={<SplashScreen/>}/>;
+    }
+}

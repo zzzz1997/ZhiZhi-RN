@@ -1,21 +1,16 @@
-import React, { Component } from 'react';
-import { StyleSheet,
-    Text,
-    Button,
-    View
-} from 'react-native';
+import React from 'react';
+import { View, Text, StyleSheet } from 'react-native';
 
-import Swiper from 'react-native-swiper';
+import { BasePage, Carousel, Button } from 'teaset';
 
-export default class WelcomeScreen extends Component {
-    static navigationOptions = {
-        header: null
-    };
+import MainScreen from "./MainScreen";
 
-    render(){
-        const { navigate } = this.props.navigation;
-        return (
-            <Swiper style={styles.wrapper} showsButtons={true}>
+export default class WelcomeScreen extends BasePage {
+    renderPage() {
+        return(
+            <Carousel style={styles.container}
+                      carousel={false}
+                control={<Carousel.Control/>}>
                 <View style={styles.slide1}>
                     <Text style={styles.text}>Hello Swiper</Text>
                 </View>
@@ -24,39 +19,38 @@ export default class WelcomeScreen extends Component {
                 </View>
                 <View style={styles.slide3}>
                     <Text style={styles.text}>And simple</Text>
-                    <Button title={'Start!'} onPress={() => {
-                        navigate('Tabs')
-                    }}/>
+                    <Button title='Start' onPress={() => {
+                        this.navigator.push({view: <MainScreen/>})
+                    }} />
                 </View>
-            </Swiper>
-        );
+            </Carousel>
+        )
     }
 }
 
 const styles = StyleSheet.create({
-    wrapper: {
+    container: {
+        flex: 1
     },
     slide1: {
         flex: 1,
         justifyContent: 'center',
         alignItems: 'center',
-        backgroundColor: '#9DD6EB',
+        backgroundColor: '#9DD6EB'
     },
     slide2: {
         flex: 1,
         justifyContent: 'center',
         alignItems: 'center',
-        backgroundColor: '#97CAE5',
+        backgroundColor: '#97CAE5'
     },
     slide3: {
         flex: 1,
         justifyContent: 'center',
         alignItems: 'center',
-        backgroundColor: '#92BBD9',
+        backgroundColor: '#92BBD9'
     },
     text: {
-        color: '#fff',
-        fontSize: 30,
-        fontWeight: 'bold',
+        fontSize: 20
     }
 });

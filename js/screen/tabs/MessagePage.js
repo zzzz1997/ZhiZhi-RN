@@ -1,10 +1,11 @@
-import React, { Component } from 'react';
-import { Text } from 'react-native';
+import React from 'react';
 
-export default class MessagePage extends Component {
-    render() {
+import { BasePage, Label } from 'teaset'
+
+export default class MessagePage extends BasePage {
+    renderPage() {
         return(
-            <Text>MessagePage</Text>
+            <Label>MessagePage</Label>
         )
     }
 }

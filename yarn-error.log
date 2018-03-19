@@ -1,5 +1,5 @@
 Arguments: 
-  C:\Program Files\nodejs\node.exe C:\Users\asus\AppData\Roaming\npm\node_modules\yarn\bin\yarn.js react-native-tab-navigator
+  C:\Program Files\nodejs\node.exe C:\Users\asus\AppData\Roaming\npm\node_modules\yarn\bin\yarn.js remove
 
 PATH: 
   C:\Program Files\Java\jre1.8.0_161\bin;C:\Python27\Scripts;C:\ProgramData\Oracle\Java\javapath;C:\Windows\system32;C:\Windows;C:\Windows\System32\Wbem;C:\Windows\System32\WindowsPowerShell\v1.0\;C:\Program Files (x86)\NVIDIA Corporation\PhysX\Common;C:\ProgramData\chocolatey\bin;C:\Program Files\nodejs\;C:\Android;G:\Git\cmd;G:\Git\usr\bin;C:\Users\asus\AppData\Local\Microsoft\WindowsApps;C:\Users\asus\AppData\Local\GitHubDesktop\bin;C:\Users\asus\AppData\Roaming\npm
@@ -26,13 +26,10 @@ npm manifest:
       "prop-types": "^15.6.1",
       "react": "16.3.0-alpha.1",
       "react-native": "0.54.2",
-      "react-native-easy-toast": "^1.1.0",
-      "react-native-elements": "^0.19.0",
       "react-native-storage": "^0.2.2",
-      "react-native-swiper": "^1.5.13",
-      "react-native-tab-navigator": "^0.3.4",
       "react-native-vector-icons": "^4.5.0",
-      "react-navigation": "^1.5.8"
+      "react-navigation": "^1.5.8",
+      "teaset": "^0.5.6"
     },
     "devDependencies": {
       "babel-jest": "22.4.1",
@@ -444,10 +441,6 @@ Lockfile:
   amdefine@>=0.0.4:
     version "1.0.1"
     resolved "http://registry.npm.taobao.org/amdefine/download/amdefine-1.0.1.tgz#4a5282ac164729e93619bcfd3ad151f817ce91f5"
-  
-  ansi-escapes@^1.1.0:
-    version "1.4.0"
-    resolved "http://registry.npm.taobao.org/ansi-escapes/download/ansi-escapes-1.4.0.tgz#d3a8a83b319aa67793662b13e761c7911422306e"
   
   ansi-escapes@^3.0.0:
     version "3.0.0"
@@ -1086,14 +1079,6 @@ Lockfile:
       babel-runtime "^6.22.0"
       babel-types "^6.24.1"
   
-  babel-polyfill@6.23.0:
-    version "6.23.0"
-    resolved "http://registry.npm.taobao.org/babel-polyfill/download/babel-polyfill-6.23.0.tgz#8364ca62df8eafb830499f699177466c3b03499d"
-    dependencies:
-      babel-runtime "^6.22.0"
-      core-js "^2.4.0"
-      regenerator-runtime "^0.10.0"
-  
   babel-preset-es2015-node@^6.1.1:
     version "6.1.1"
     resolved "http://registry.npm.taobao.org/babel-preset-es2015-node/download/babel-preset-es2015-node-6.1.1.tgz#60b23157024b0cfebf3a63554cb05ee035b4e55f"
@@ -1421,7 +1406,7 @@ Lockfile:
       align-text "^0.1.3"
       lazy-cache "^1.0.3"
   
-  chalk@1.1.3, chalk@^1.0.0, chalk@^1.1.1, chalk@^1.1.3:
+  chalk@^1.0.0, chalk@^1.1.1, chalk@^1.1.3:
     version "1.1.3"
     resolved "http://registry.npm.taobao.org/chalk/download/chalk-1.1.3.tgz#a8115c55e4a702fe4d150abd3872822a7e09fc98"
     dependencies:
@@ -1626,6 +1611,14 @@ Lockfile:
   core-util-is@1.0.2, core-util-is@~1.0.0:
     version "1.0.2"
     resolved "http://registry.npm.taobao.org/core-util-is/download/core-util-is-1.0.2.tgz#b5fd54220aa2bc5ab57aab7140c940754503c1a7"
+  
+  create-react-class@15.6.0:
+    version "15.6.0"
+    resolved "http://registry.npm.taobao.org/create-react-class/download/create-react-class-15.6.0.tgz#ab448497c26566e1e29413e883207d57cfe7bed4"
+    dependencies:
+      fbjs "^0.8.9"
+      loose-envify "^1.3.1"
+      object-assign "^4.1.1"
   
   create-react-class@^15.6.3:
     version "15.6.3"
@@ -1987,7 +1980,7 @@ Lockfile:
     version "3.0.1"
     resolved "http://registry.npm.taobao.org/extend/download/extend-3.0.1.tgz#a755ea7bc1adfcc5a31ce7e762dbaadc5e636444"
   
-  external-editor@^2.0.1, external-editor@^2.0.4:
+  external-editor@^2.0.4:
     version "2.1.0"
     resolved "http://registry.npm.taobao.org/external-editor/download/external-editor-2.1.0.tgz#3d026a21b7f95b5726387d4200ac160d372c3b48"
     dependencies:
@@ -2061,7 +2054,7 @@ Lockfile:
       semver "^5.1.0"
       through2 "^2.0.0"
   
-  fbjs@^0.8.14, fbjs@^0.8.16, fbjs@^0.8.9:
+  fbjs@^0.8.14, fbjs@^0.8.16, fbjs@^0.8.9, fbjs@~0.8.9:
     version "0.8.16"
     resolved "http://registry.npm.taobao.org/fbjs/download/fbjs-0.8.16.tgz#5e67432f550dc41b572bf55847b8aca64e5337db"
     dependencies:
@@ -2510,9 +2503,9 @@ Lockfile:
     version "0.6.2"
     resolved "http://registry.npm.taobao.org/image-size/download/image-size-0.6.2.tgz#8ee316d4298b028b965091b673d5f1537adee5b4"
   
-  immutable@^3.8.1:
-    version "3.8.2"
-    resolved "http://registry.npm.taobao.org/immutable/download/immutable-3.8.2.tgz#c2439951455bb39913daf281376f1530e104adf3"
+  immutable@~3.7.6:
+    version "3.7.6"
+    resolved "http://registry.npm.taobao.org/immutable/download/immutable-3.7.6.tgz#13b4d3cb12befa15482a26fe1b2ebae640071e4b"
   
   import-local@^1.0.0:
     version "1.0.0"
@@ -2539,24 +2532,6 @@ Lockfile:
   ini@~1.3.0:
     version "1.3.5"
     resolved "http://registry.npm.taobao.org/ini/download/ini-1.3.5.tgz#eee25f56db1c9ec6085e0c22778083f596abf927"
-  
-  inquirer@3.0.6:
-    version "3.0.6"
-    resolved "http://registry.npm.taobao.org/inquirer/download/inquirer-3.0.6.tgz#e04aaa9d05b7a3cb9b0f407d04375f0447190347"
-    dependencies:
-      ansi-escapes "^1.1.0"
-      chalk "^1.0.0"
-      cli-cursor "^2.1.0"
-      cli-width "^2.0.0"
-      external-editor "^2.0.1"
-      figures "^2.0.0"
-      lodash "^4.3.0"
-      mute-stream "0.0.7"
-      run-async "^2.2.0"
-      rx "^4.1.0"
-      string-width "^2.0.0"
-      strip-ansi "^3.0.0"
-      through "^2.3.6"
   
   inquirer@^3.0.6:
     version "3.3.0"
@@ -3367,10 +3342,6 @@ Lockfile:
     version "3.0.4"
     resolved "http://registry.npm.taobao.org/lodash.isarray/download/lodash.isarray-3.0.4.tgz#79e4eb88c36a8122af86f844aa9bcd851b5fbb55"
   
-  lodash.isempty@^4.4.0:
-    version "4.4.0"
-    resolved "http://registry.npm.taobao.org/lodash.isempty/download/lodash.isempty-4.4.0.tgz#6f86cbedd8be4ec987be9aaf33c9684db1b31e7e"
-  
   lodash.keys@^3.0.0:
     version "3.1.2"
     resolved "http://registry.npm.taobao.org/lodash.keys/download/lodash.keys-3.1.2.tgz#4dbc0472b156be50a0b286855d1bd0b0c656098a"
@@ -3423,10 +3394,6 @@ Lockfile:
   lodash.throttle@^4.1.1:
     version "4.1.1"
     resolved "http://registry.npm.taobao.org/lodash.throttle/download/lodash.throttle-4.1.1.tgz#c23e91b710242ac70c37f1e1cda9274cc39bf2f4"
-  
-  lodash.times@^4.3.2:
-    version "4.3.2"
-    resolved "http://registry.npm.taobao.org/lodash.times/download/lodash.times-4.3.2.tgz#3e1f2565c431754d54ab57f2ed1741939285ca1d"
   
   lodash@^3.5.0:
     version "3.10.1"
@@ -3693,7 +3660,7 @@ Lockfile:
     version "0.0.8"
     resolved "http://registry.npm.taobao.org/minimist/download/minimist-0.0.8.tgz#857fcabfc3397d2625b8228262e86aa7a011b05d"
   
-  minimist@1.2.0, minimist@^1.1.0, minimist@^1.1.1, minimist@^1.2.0:
+  minimist@^1.1.0, minimist@^1.1.1, minimist@^1.2.0:
     version "1.2.0"
     resolved "http://registry.npm.taobao.org/minimist/download/minimist-1.2.0.tgz#a35008b20f41383eec1fb914f4cd5df79a264284"
   
@@ -3766,13 +3733,6 @@ Lockfile:
   negotiator@0.6.1:
     version "0.6.1"
     resolved "http://registry.npm.taobao.org/negotiator/download/negotiator-0.6.1.tgz#2b327184e8992101177b28563fb5e7102acd0ca9"
-  
-  node-fetch@1.6.3:
-    version "1.6.3"
-    resolved "http://registry.npm.taobao.org/node-fetch/download/node-fetch-1.6.3.tgz#dc234edd6489982d58e8f0db4f695029abcd8c04"
-    dependencies:
-      encoding "^0.1.11"
-      is-stream "^1.0.1"
   
   node-fetch@^1.0.1, node-fetch@^1.3.3:
     version "1.7.3"
@@ -3934,24 +3894,6 @@ Lockfile:
     resolved "http://registry.npm.taobao.org/onetime/download/onetime-2.0.1.tgz#067428230fd67443b2794b22bba528b6867962d4"
     dependencies:
       mimic-fn "^1.0.0"
-  
-  opencollective@^1.0.3:
-    version "1.0.3"
-    resolved "http://registry.npm.taobao.org/opencollective/download/opencollective-1.0.3.tgz#aee6372bc28144583690c3ca8daecfc120dd0ef1"
-    dependencies:
-      babel-polyfill "6.23.0"
-      chalk "1.1.3"
-      inquirer "3.0.6"
-      minimist "1.2.0"
-      node-fetch "1.6.3"
-      opn "4.0.2"
-  
-  opn@4.0.2:
-    version "4.0.2"
-    resolved "http://registry.npm.taobao.org/opn/download/opn-4.0.2.tgz#7abc22e644dff63b0a96d5ab7f2790c0f01abc95"
-    dependencies:
-      object-assign "^4.0.1"
-      pinkie-promise "^2.0.0"
   
   opn@^3.0.2:
     version "3.0.3"
@@ -4261,6 +4203,17 @@ Lockfile:
     version "1.0.2"
     resolved "http://registry.npm.taobao.org/react-lifecycles-compat/download/react-lifecycles-compat-1.0.2.tgz#551d8b1d156346e5fcf30ffac9b32ce3f78b8850"
   
+  "react-native-deprecated-custom-components@github:facebookarchive/react-native-custom-components":
+    version "0.1.1"
+    resolved "https://codeload.github.com/facebookarchive/react-native-custom-components/tar.gz/d5201e53221a2460b096ee82ff4480f3b0de7fe4"
+    dependencies:
+      create-react-class "15.6.0"
+      fbjs "~0.8.9"
+      immutable "~3.7.6"
+      prop-types "^15.5.10"
+      react-timer-mixin "^0.13.2"
+      rebound "^0.0.13"
+  
   react-native-dismiss-keyboard@1.0.0:
     version "1.0.0"
     resolved "http://registry.npm.taobao.org/react-native-dismiss-keyboard/download/react-native-dismiss-keyboard-1.0.0.tgz#32886242b3f2317e121f3aeb9b0a585e2b879b49"
@@ -4277,21 +4230,6 @@ Lockfile:
     dependencies:
       react-native-dismiss-keyboard "1.0.0"
   
-  react-native-easy-toast@^1.1.0:
-    version "1.1.0"
-    resolved "http://registry.npm.taobao.org/react-native-easy-toast/download/react-native-easy-toast-1.1.0.tgz#7d3a34ed298d32c4827b8d43ddfab6a71b98a2e3"
-    dependencies:
-      prop-types "^15.5.10"
-  
-  react-native-elements@^0.19.0:
-    version "0.19.0"
-    resolved "http://registry.npm.taobao.org/react-native-elements/download/react-native-elements-0.19.0.tgz#737c5198bf7487f9986e2023826cd0bd7a500366"
-    dependencies:
-      lodash.isempty "^4.4.0"
-      lodash.times "^4.3.2"
-      opencollective "^1.0.3"
-      prop-types "^15.5.8"
-  
   react-native-safe-area-view@^0.7.0:
     version "0.7.0"
     resolved "http://registry.npm.taobao.org/react-native-safe-area-view/download/react-native-safe-area-view-0.7.0.tgz#38f5ab9368d6ef9e5d18ab64212938af3ec39421"
@@ -4301,19 +4239,6 @@ Lockfile:
   react-native-storage@^0.2.2:
     version "0.2.2"
     resolved "http://registry.npm.taobao.org/react-native-storage/download/react-native-storage-0.2.2.tgz#4449197f122b2da0650e3704e1f050260ed58d9f"
-  
-  react-native-swiper@^1.5.13:
-    version "1.5.13"
-    resolved "http://registry.npm.taobao.org/react-native-swiper/download/react-native-swiper-1.5.13.tgz#fa695cd4ab77b9a9df2d2bfee38ea7274dd07a2e"
-    dependencies:
-      prop-types "^15.5.10"
-  
-  react-native-tab-navigator@^0.3.4:
-    version "0.3.4"
-    resolved "http://registry.npm.taobao.org/react-native-tab-navigator/download/react-native-tab-navigator-0.3.4.tgz#54a18f1ad06a09d4a0de81ff00416bc1b760c960"
-    dependencies:
-      immutable "^3.8.1"
-      prop-types "^15.5.10"
   
   "react-native-tab-view@github:react-navigation/react-native-tab-view":
     version "0.0.74"
@@ -4497,13 +4422,13 @@ Lockfile:
     dependencies:
       util.promisify "^1.0.0"
   
+  rebound@^0.0.13:
+    version "0.0.13"
+    resolved "http://registry.npm.taobao.org/rebound/download/rebound-0.0.13.tgz#4a225254caf7da756797b19c5817bf7a7941fac1"
+  
   regenerate@^1.2.1:
     version "1.3.3"
     resolved "http://registry.npm.taobao.org/regenerate/download/regenerate-1.3.3.tgz#0c336d3980553d755c39b586ae3b20aa49c82b7f"
-  
-  regenerator-runtime@^0.10.0:
-    version "0.10.5"
-    resolved "http://registry.npm.taobao.org/regenerator-runtime/download/regenerator-runtime-0.10.5.tgz#336c3efc1220adcedda2c9fab67b5a7955a33658"
   
   regenerator-runtime@^0.11.0:
     version "0.11.1"
@@ -4718,10 +4643,6 @@ Lockfile:
   rx-lite@*, rx-lite@^4.0.8:
     version "4.0.8"
     resolved "http://registry.npm.taobao.org/rx-lite/download/rx-lite-4.0.8.tgz#0b1e11af8bc44836f04a6407e92da42467b79444"
-  
-  rx@^4.1.0:
-    version "4.1.0"
-    resolved "http://registry.npm.taobao.org/rx/download/rx-4.1.0.tgz#a5f13ff79ef3b740fe30aa803fb09f98805d4782"
   
   safe-buffer@5.1.1, safe-buffer@^5.0.1, safe-buffer@^5.1.1, safe-buffer@~5.1.0, safe-buffer@~5.1.1:
     version "5.1.1"
@@ -5133,6 +5054,13 @@ Lockfile:
       block-stream "*"
       fstream "^1.0.2"
       inherits "2"
+  
+  teaset@^0.5.6:
+    version "0.5.6"
+    resolved "http://registry.npm.taobao.org/teaset/download/teaset-0.5.6.tgz#46582cfeaf81bed95052d74c143b5f1c71271eac"
+    dependencies:
+      prop-types "^15.5.10"
+      react-native-deprecated-custom-components "github:facebookarchive/react-native-custom-components"
   
   temp@0.8.3:
     version "0.8.3"
@@ -5616,14 +5544,14 @@ Lockfile:
       window-size "0.1.0"
 
 Trace: 
-  Error: Command "react-native-tab-navigator" not found.
+  Error: Not enough arguments, expected at least 1.
       at new MessageError (C:\Users\asus\AppData\Roaming\npm\node_modules\yarn\lib\cli.js:186:110)
-      at C:\Users\asus\AppData\Roaming\npm\node_modules\yarn\lib\cli.js:87307:17
+      at Object.<anonymous> (C:\Users\asus\AppData\Roaming\npm\node_modules\yarn\lib\cli.js:60368:13)
       at Generator.next (<anonymous>)
       at step (C:\Users\asus\AppData\Roaming\npm\node_modules\yarn\lib\cli.js:98:30)
       at C:\Users\asus\AppData\Roaming\npm\node_modules\yarn\lib\cli.js:116:14
       at new Promise (<anonymous>)
       at new F (C:\Users\asus\AppData\Roaming\npm\node_modules\yarn\lib\cli.js:23451:28)
-      at C:\Users\asus\AppData\Roaming\npm\node_modules\yarn\lib\cli.js:95:12
-      at runCommand (C:\Users\asus\AppData\Roaming\npm\node_modules\yarn\lib\cli.js:87312:22)
-      at Object.<anonymous> (C:\Users\asus\AppData\Roaming\npm\node_modules\yarn\lib\cli.js:87412:14)
+      at Object.<anonymous> (C:\Users\asus\AppData\Roaming\npm\node_modules\yarn\lib\cli.js:95:12)
+      at Object.run (C:\Users\asus\AppData\Roaming\npm\node_modules\yarn\lib\cli.js:60486:17)
+      at run (C:\Users\asus\AppData\Roaming\npm\node_modules\yarn\lib\cli.js:89113:20)

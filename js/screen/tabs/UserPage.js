@@ -1,10 +1,11 @@
-import React, { Component } from 'react';
-import { Text } from 'react-native';
+import React from 'react';
 
-export default class UserPage extends Component {
-    render() {
+import { BasePage, Label } from 'teaset'
+
+export default class UserPage extends BasePage {
+    renderPage() {
         return(
-            <Text>UserPage</Text>
+            <Label>UserPage</Label>
         )
     }
 }

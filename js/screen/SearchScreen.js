@@ -1,35 +1,17 @@
-import React, { Component } from 'react';
-import { View } from 'react-native';
+import React from 'react';
 
-import { SearchBar } from 'react-native-elements';
-import Toast from 'react-native-easy-toast';
+import { BasePage, SearchInput } from 'teaset'
 
-export default class SearchScreen extends Component {
-    static navigationOptions = {
-        header: null
-    };
-
-    componentDidMount() {
+export default class SearchScreen extends BasePage {
+    onDidFocus() {
         this.search.focus()
     }
 
-    render() {
+    renderPage() {
         return(
-            <View>
-                <SearchBar
-                    showLoadingIcon
-                    onChangeText={() => {
-                        this.toast.show('onChangeText')
-                    }}
-                    onClearText={() => {
-                        this.toast.show('onClearText')
-                    }}
-                    clearIcon={{name: 'clear'}}
-                    placeholder='Type Here...'
-                    ref={search => this.search = search}/>
-
-                <Toast ref={toast => this.toast = toast}/>
-            </View>
+            <SearchInput style={{width: 200}}
+                         placeholder='找工作'
+                         ref={search => this.search = search}/>
         )
     }
 }
