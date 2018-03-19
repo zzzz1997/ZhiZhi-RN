@@ -1,13 +1,13 @@
 import { StackNavigator } from 'react-navigation'
-import SplashScreen from "./js/screen/SplashScreen";
-import MainScreen from "./js/screen/MainScreen";
-import StartUp from "./js/utils/StartUp";
+import SplashScreen from "./js/screen/WelcomeScreen";
+import StartUp from "./js/screen/StartUp";
 import SearchScreen from "./js/screen/SearchScreen";
+import Tabs from "./js/screen/tabs/Tabs";
 
 const App = StackNavigator({
     StartUp: StartUp,
     SplashScreen: SplashScreen,
-    MainScreen: MainScreen,
+    Tabs: Tabs,
     SearchScreen: SearchScreen
 });
 
