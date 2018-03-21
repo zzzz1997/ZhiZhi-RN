@@ -1,6 +1,6 @@
 import React from 'react';
 
-import { BasePage, ListRow, PullPicker, Theme } from 'teaset'
+import { NavigationPage, ListRow, PullPicker, Theme } from 'teaset'
 import DefaultTheme from "../theme/DefaultTheme";
 import TestTheme from "../theme/TestTheme";
 import MyStorage from "../utils/MyStorage";
@@ -10,7 +10,13 @@ const themes = {
     test: TestTheme
 };
 
-export default class SettingScreen extends BasePage {
+export default class SettingScreen extends NavigationPage {
+    static defaultProps = {
+        ...NavigationPage.defaultProps,
+        title: '设置',
+        showBackButton: true
+    };
+
     changeTheme() {
         PullPicker.show(
             '选择主题',
