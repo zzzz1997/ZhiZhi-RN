@@ -12,13 +12,10 @@ import FindPage from "../../../ZhiZhi/js/screen/tabs/FindPage";
 import MessagePage from "./tabs/MessagePage";
 import UserPage from "./tabs/UserPage";
 
-const DEFAULT_COLOR = '#d5d5d5';
-const ACTIVE_COLOR = '#ff4500';
 const HOME_TITLE = '主页';
 const HOME_TAG = 'home';
 const FIND_TITLE = '发现';
 const FIND_TAG = 'eye';
-const ADD_TITLE = '发布';
 const ADD_TAG = 'md-add-circle';
 const MESSAGE_TITLE = '消息';
 const MESSAGE_TAG = 'message';
@@ -36,9 +33,9 @@ export default class MainScreen extends BasePage {
         };
         let bigIcon = (
             <View style={{
-                width: 54,
-                height: 54,
-                borderRadius: 27,
+                width: 70,
+                height: 70,
+                borderRadius: 35,
                 shadowColor: '#ccc',
                 shadowOffset: {height: -1},
                 shadowOpacity: 0.5,
@@ -46,45 +43,43 @@ export default class MainScreen extends BasePage {
                 alignItems: 'center',
                 justifyContent: 'center',
             }}>
-                <IconI name={ADD_TAG} size={50} color={ACTIVE_COLOR}/>
+                <IconI name={ADD_TAG} size={50} color={global.theme.primaryColor}/>
             </View>
         );
         return(
             <TabView style={styles.container} barStyle={customBarStyle} type={'projector'}>
                 <TabView.Sheet
                     title={HOME_TITLE}
-                    activeTitleStyle={{fontcolor: '#ff4500'}}
-                    icon={<IconF name={HOME_TAG} size={26} color={DEFAULT_COLOR}/>}
-                    activeIcon={<IconF name={HOME_TAG} size={26} color={ACTIVE_COLOR}/>}
+                    icon={<IconF name={HOME_TAG} size={26} color={global.theme.tvBarBtnIconTintColor}/>}
+                    activeIcon={<IconF name={HOME_TAG} size={26} color={global.theme.primaryColor}/>}
                     badge={1}>
                     <HomePage/>
                 </TabView.Sheet>
 
                 <TabView.Sheet
                     title={FIND_TITLE}
-                    icon={<IconF name={FIND_TAG} size={26} color={DEFAULT_COLOR}/>}
-                    activeIcon={<IconF name={FIND_TAG} size={26} color={ACTIVE_COLOR}/>}>
+                    icon={<IconF name={FIND_TAG} size={26} color={global.theme.tvBarBtnIconTintColor}/>}
+                    activeIcon={<IconF name={FIND_TAG} size={26} color={global.theme.primaryColor}/>}>
                     <FindPage/>
                 </TabView.Sheet>
 
                 <TabView.Sheet
                     type={'button'}
-                    title={ADD_TITLE}
                     icon={bigIcon}
                     iconContainerStyle={{justifyContent: 'flex-end'}}
                     onPress={() => alert('Custom button press')}/>
 
                 <TabView.Sheet
                     title={MESSAGE_TITLE}
-                    icon={<IconE name={MESSAGE_TAG} size={26} color={DEFAULT_COLOR}/>}
-                    activeIcon={<IconE name={MESSAGE_TAG} size={26} color={ACTIVE_COLOR}/>}>
+                    icon={<IconE name={MESSAGE_TAG} size={26} color={global.theme.tvBarBtnIconTintColor}/>}
+                    activeIcon={<IconE name={MESSAGE_TAG} size={26} color={global.theme.primaryColor}/>}>
                     <MessagePage/>
                 </TabView.Sheet>
 
                 <TabView.Sheet
                     title={USER_TITLE}
-                    icon={<IconFA name={USER_TAG} size={26} color={DEFAULT_COLOR}/>}
-                    activeIcon={<IconFA name={USER_TAG} size={26} color={ACTIVE_COLOR}/>}>
+                    icon={<IconFA name={USER_TAG} size={26} color={global.theme.tvBarBtnIconTintColor}/>}
+                    activeIcon={<IconFA name={USER_TAG} size={26} color={global.theme.primaryColor}/>}>
                     <UserPage/>
                 </TabView.Sheet>
             </TabView>

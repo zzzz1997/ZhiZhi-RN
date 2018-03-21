@@ -2,11 +2,13 @@ import React, { Component } from "react";
 
 import { TeaNavigator, Theme } from 'teaset'
 
+import DefaultTheme from "./js/theme/DefaultTheme";
 import SplashScreen from "./js/screen/SplashScreen";
 
-Theme.set({fitIPhoneX:true});
+const theme = DefaultTheme;
+Theme.set(theme);
 
-export default class App extends Component<{}> {
+export default class App extends Component {
     render() {
         return <TeaNavigator rootView={<SplashScreen/>}/>;
     }

@@ -1,22 +1,48 @@
 import React from 'react';
-import { ScrollView, View, Platform, Text, Image, StyleSheet } from 'react-native';
+import { ScrollView, View, Platform, Text, Image, TouchableWithoutFeedback, StyleSheet } from 'react-native';
 
-import { BasePage, SearchInput, Carousel, Label, Toast } from 'teaset'
+import { BasePage, SearchInput, Carousel, Label, Toast, Theme } from 'teaset';
+import IconE from 'react-native-vector-icons/EvilIcons';
+import IconM from 'react-native-vector-icons/MaterialCommunityIcons';
 
 import SearchScreen from "../SearchScreen";
 import ImageButton from "../../common/ImageButton";
+import ScanScreen from "../ScanScreen";
 
 export default class HomePage extends BasePage {
     renderPage() {
         return(
             <ScrollView style={styles.container}>
-                <View style={styles.header}>
-                    <SearchInput
-                        style={{width: 200}}
-                        placeholder='找工作'
-                        onFocus={() => {
-                            this.navigator.push({view: <SearchScreen/>})
-                        }}/>
+                <View
+                    style={{flexDirection: 'row',
+                        paddingLeft: 10,
+                        paddingRight: 10,
+                        paddingTop: Platform.OS === 'ios' ? 20 : 0,
+                        height: Platform.OS === 'ios' ? 68 : 48,
+                        backgroundColor: Theme.primaryColor,
+                        alignItems: 'center'}}>
+                    <View style={styles.headBar}>
+                        <View style={styles.location}>
+                            <Label>昆明</Label>
+
+                            <IconE name={'location'} color={global.theme.tvBarBtnIconTintColor} size={18}/>
+                        </View>
+
+                        <SearchInput
+                            style={styles.searchBar}
+                            placeholder='找工作'
+                            onFocus={() => {
+                                this.navigator.push({view: <SearchScreen/>})
+                            }}/>
+
+                        <TouchableWithoutFeedback
+                            onPress={() => {
+                                Toast.message('dianji');
+                                this.navigator.push({view: <ScanScreen/>})
+                            }}>
+                            <IconM name={'qrcode-scan'} color={global.theme.tvBarBtnIconTintColor} size={26}/>
+                        </TouchableWithoutFeedback>
+                    </View>
                 </View>
 
                 <Carousel
@@ -53,14 +79,20 @@ const styles = StyleSheet.create({
     container: {
         flex: 1
     },
-    header: {
+    headBar: {
         flexDirection: 'row',
-        paddingLeft: 10,
-        paddingRight: 10,
-        paddingTop: Platform.OS === 'ios' ? 20 : 0,
-        height: Platform.OS === 'ios' ? 68 : 48,
-        backgroundColor: '#ff4500',
-        alignItems: 'center'
+        backgroundColor: '#ffffff',
+        alignItems: 'center',
+        paddingRight: 3
+    },
+    location: {
+        flexDirection: 'row',
+        alignItems: 'center',
+        paddingLeft: 5
+    },
+    searchBar: {
+        flex: 1,
+        marginEnd: 3
     },
     carousel: {
         height: 200
