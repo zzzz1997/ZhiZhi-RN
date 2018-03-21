@@ -1,15 +1,22 @@
 import React from 'react';
 import { ScrollView, View, Platform, Text, Image, TouchableWithoutFeedback, StyleSheet } from 'react-native';
 
-import { BasePage, SearchInput, Carousel, Label, Toast, Theme } from 'teaset';
+import { NavigationPage, SearchInput, Carousel, Label, Toast, Theme } from 'teaset';
 import IconE from 'react-native-vector-icons/EvilIcons';
 import IconM from 'react-native-vector-icons/MaterialCommunityIcons';
 
 import SearchScreen from "../SearchScreen";
 import ImageButton from "../../common/ImageButton";
 import ScanScreen from "../ScanScreen";
+import LocationScreen from "../LocationScreen";
 
-export default class HomePage extends BasePage {
+export default class HomePage extends NavigationPage {
+    static defaultProps = {
+        ...NavigationPage.defaultProps,
+        title: '主页',
+        showBackButton: false
+    };
+
     renderPage() {
         return(
             <ScrollView style={styles.container}>
@@ -22,11 +29,16 @@ export default class HomePage extends BasePage {
                         backgroundColor: Theme.primaryColor,
                         alignItems: 'center'}}>
                     <View style={styles.headBar}>
-                        <View style={styles.location}>
-                            <Label>昆明</Label>
+                        <TouchableWithoutFeedback
+                            onPress={() => {
+                                this.navigator.push({view: <LocationScreen/>})
+                            }}>
+                            <View style={styles.location}>
+                                <Label>昆明</Label>
 
-                            <IconE name={'location'} color={global.theme.tvBarBtnIconTintColor} size={18}/>
-                        </View>
+                                <IconE name={'location'} color={global.theme.tvBarBtnIconTintColor} size={18}/>
+                            </View>
+                        </TouchableWithoutFeedback>
 
                         <SearchInput
                             style={styles.searchBar}

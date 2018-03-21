@@ -1,9 +1,15 @@
 import React from 'react';
 
-import { BasePage, ListRow } from 'teaset'
+import { NavigationPage, ListRow } from 'teaset'
 import SettingScreen from "../SettingScreen";
 
-export default class UserPage extends BasePage {
+export default class UserPage extends NavigationPage {
+    static defaultProps = {
+        ...NavigationPage.defaultProps,
+        title: '我',
+        showBackButton: false
+    };
+
     renderPage() {
         return(
             <ListRow

@@ -1,8 +1,14 @@
 import React from 'react';
 
-import { BasePage, Label } from 'teaset'
+import { NavigationPage, Label } from 'teaset'
 
-export default class MessagePage extends BasePage {
+export default class MessagePage extends NavigationPage {
+    static defaultProps = {
+        ...NavigationPage.defaultProps,
+        title: '消息',
+        showBackButton: false
+    };
+
     renderPage() {
         return(
             <Label>MessagePage</Label>
