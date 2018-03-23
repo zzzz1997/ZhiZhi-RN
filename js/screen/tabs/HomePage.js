@@ -62,7 +62,10 @@ export default class HomePage extends NavigationPage {
                     control={<Carousel.Control
                         style={{alignItems: 'flex-end'}}
                         dot={<Text style={styles.dot}>☆</Text>}
-                        activeDot={<Text style={styles.activeDot}>★</Text>}/>}>
+                        activeDot={<Text style={styles.activeDot}>★</Text>}/>}
+                        onPress={() => {
+                            Toast.message('clicked!')
+                        }}>
                     <View style={styles.slide1}>
                         <Image source={require('../../../img/dyp.png')}/>
                     </View>
@@ -75,13 +78,13 @@ export default class HomePage extends NavigationPage {
                         <Label style={styles.text}>And simple</Label>
                     </View>
                 </Carousel>
-                
+
                 <ImageButton image={require('../../../img/dyp.png')}
-                    text={'电影票'}
-                    tag={'test'}
-                    onClick={(title, tag) => {
-                        Toast.message(title + tag)
-                }}/>
+                             text={'电影票'}
+                             tag={'test'}
+                             onClick={(title, tag) => {
+                                 Toast.message(title + tag)
+                             }}/>
             </ScrollView>
         )
     }

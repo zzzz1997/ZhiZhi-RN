@@ -1,0 +1,1925 @@
+{
+  "lastCities": [{
+    "name": "北京",
+    "province": "北京",
+    "letters": "beijing"
+  }
+  ],
+  "hotCities": [{
+    "name": "北京",
+    "province": "北京",
+    "letters": "beijing"
+  },
+    {
+      "name": "上海",
+      "province": "上海",
+      "letters": "shanghai"
+    },
+    {
+      "name": "广州",
+      "province": "广东",
+      "letters": "guangzhou"
+    },
+    {
+      "name": "深圳",
+      "province": "广东",
+      "letters": "shenzhen"
+    },
+    {
+      "name": "成都",
+      "province": "四川",
+      "letters": "chengdu"
+    },
+    {
+      "name": "杭州",
+      "province": "浙江",
+      "letters": "hangzhou"
+    },
+    {
+      "name": "南京",
+      "province": "江苏",
+      "letters": "nanjing"
+    },
+    {
+      "name": "天津",
+      "province": "天津",
+      "letters": "tianjin"
+    },
+    {
+      "name": "武汉",
+      "province": "湖北",
+      "letters": "wuhan"
+    },
+    {
+      "name": "重庆",
+      "province": "重庆",
+      "letters": "chongqing"
+    }
+  ],
+  "allCities": [{
+    "name": "阿坝",
+    "province": "四川",
+    "letters": "aba"
+  },
+    {
+      "name": "阿克苏",
+      "province": "新疆",
+      "letters": "akesu"
+    },
+    {
+      "name": "阿拉尔",
+      "province": "新疆",
+      "letters": "alaer"
+    },
+    {
+      "name": "阿拉善盟",
+      "province": "内蒙古",
+      "letters": "alashanmeng"
+    },
+    {
+      "name": "阿勒泰",
+      "province": "新疆",
+      "letters": "aletai"
+    },
+    {
+      "name": "阿里",
+      "province": "西藏",
+      "letters": "ali"
+    },
+    {
+      "name": "安康",
+      "province": "陕西",
+      "letters": "ankang"
+    },
+    {
+      "name": "安庆",
+      "province": "安徽",
+      "letters": "anqing"
+    },
+    {
+      "name": "鞍山",
+      "province": "辽宁",
+      "letters": "anshan"
+    },
+    {
+      "name": "安顺",
+      "province": "贵州",
+      "letters": "anshun"
+    },
+    {
+      "name": "安阳",
+      "province": "河南",
+      "letters": "anyang"
+    },
+    {
+      "name": "澳门",
+      "province": "澳门",
+      "letters": "aomen"
+    },
+    {
+      "name": "白城",
+      "province": "吉林",
+      "letters": "baicheng"
+    },
+    {
+      "name": "百色",
+      "province": "广西",
+      "letters": "baise"
+    },
+    {
+      "name": "白沙",
+      "province": "海南",
+      "letters": "baisha"
+    },
+    {
+      "name": "白山",
+      "province": "吉林",
+      "letters": "baishan"
+    },
+    {
+      "name": "白银",
+      "province": "甘肃",
+      "letters": "baiyin"
+    },
+    {
+      "name": "蚌埠",
+      "province": "安徽",
+      "letters": "bangbu"
+    },
+    {
+      "name": "保定",
+      "province": "河北",
+      "letters": "baoding"
+    },
+    {
+      "name": "宝鸡",
+      "province": "陕西",
+      "letters": "baoji"
+    },
+    {
+      "name": "保山",
+      "province": "云南",
+      "letters": "baoshan"
+    },
+    {
+      "name": "保亭",
+      "province": "海南",
+      "letters": "baoting"
+    },
+    {
+      "name": "包头",
+      "province": "内蒙古",
+      "letters": "baotou"
+    },
+    {
+      "name": "巴彦淖尔",
+      "province": "内蒙古",
+      "letters": "bayannaoer"
+    },
+    {
+      "name": "巴音郭楞",
+      "province": "新疆",
+      "letters": "bayinguoleng"
+    },
+    {
+      "name": "巴中",
+      "province": "四川",
+      "letters": "bazhong"
+    },
+    {
+      "name": "北海",
+      "province": "广西",
+      "letters": "beihai"
+    },
+    {
+      "name": "北京",
+      "province": "北京",
+      "letters": "beijing"
+    },
+    {
+      "name": "本溪",
+      "province": "辽宁",
+      "letters": "benxi"
+    },
+    {
+      "name": "毕节",
+      "province": "贵州",
+      "letters": "bijie"
+    },
+    {
+      "name": "滨州",
+      "province": "山东",
+      "letters": "binzhou"
+    },
+    {
+      "name": "博尔塔拉",
+      "province": "新疆",
+      "letters": "boertala"
+    },
+    {
+      "name": "亳州",
+      "province": "安徽",
+      "letters": "bozhou"
+    },
+    {
+      "name": "沧州",
+      "province": "河北",
+      "letters": "cangzhou"
+    },
+    {
+      "name": "常德",
+      "province": "湖南",
+      "letters": "changde"
+    },
+    {
+      "name": "昌都",
+      "province": "西藏",
+      "letters": "changdou"
+    },
+    {
+      "name": "昌吉",
+      "province": "新疆",
+      "letters": "changji"
+    },
+    {
+      "name": "昌江",
+      "province": "海南",
+      "letters": "changjiang"
+    },
+    {
+      "name": "常州",
+      "province": "江苏",
+      "letters": "changzhou"
+    },
+    {
+      "name": "朝阳",
+      "province": "辽宁",
+      "letters": "chaoyang"
+    },
+    {
+      "name": "潮州",
+      "province": "广东",
+      "letters": "chaozhou"
+    },
+    {
+      "name": "承德",
+      "province": "河北",
+      "letters": "chengde"
+    },
+    {
+      "name": "成都",
+      "province": "四川",
+      "letters": "chengdou"
+    },
+    {
+      "name": "澄迈",
+      "province": "海南",
+      "letters": "chengmai"
+    },
+    {
+      "name": "郴州",
+      "province": "湖南",
+      "letters": "chenzhou"
+    },
+    {
+      "name": "赤峰",
+      "province": "内蒙古",
+      "letters": "chifeng"
+    },
+    {
+      "name": "池州",
+      "province": "安徽",
+      "letters": "chizhou"
+    },
+    {
+      "name": "崇左",
+      "province": "广西",
+      "letters": "chongzuo"
+    },
+    {
+      "name": "楚雄",
+      "province": "云南",
+      "letters": "chuxiong"
+    },
+    {
+      "name": "滁州",
+      "province": "安徽",
+      "letters": "chuzhou"
+    },
+    {
+      "name": "大理",
+      "province": "云南",
+      "letters": "dali"
+    },
+    {
+      "name": "大连",
+      "province": "辽宁",
+      "letters": "dalian"
+    },
+    {
+      "name": "丹东",
+      "province": "辽宁",
+      "letters": "dandong"
+    },
+    {
+      "name": "儋州",
+      "province": "海南",
+      "letters": "danzhou"
+    },
+    {
+      "name": "大庆",
+      "province": "黑龙江",
+      "letters": "daqing"
+    },
+    {
+      "name": "大同",
+      "province": "山西",
+      "letters": "datong"
+    },
+    {
+      "name": "大兴安岭",
+      "province": "黑龙江",
+      "letters": "daxinganling"
+    },
+    {
+      "name": "达州",
+      "province": "四川",
+      "letters": "dazhou"
+    },
+    {
+      "name": "德宏",
+      "province": "云南",
+      "letters": "dehong"
+    },
+    {
+      "name": "德阳",
+      "province": "四川",
+      "letters": "deyang"
+    },
+    {
+      "name": "德州",
+      "province": "山东",
+      "letters": "dezhou"
+    },
+    {
+      "name": "钓鱼岛",
+      "province": "福建",
+      "letters": "diaoyudao"
+    },
+    {
+      "name": "定安",
+      "province": "海南",
+      "letters": "dingan"
+    },
+    {
+      "name": "定西",
+      "province": "甘肃",
+      "letters": "dingxi"
+    },
+    {
+      "name": "迪庆",
+      "province": "云南",
+      "letters": "diqing"
+    },
+    {
+      "name": "东方",
+      "province": "海南",
+      "letters": "dongfang"
+    },
+    {
+      "name": "东莞",
+      "province": "广东",
+      "letters": "dongguan"
+    },
+    {
+      "name": "东营",
+      "province": "山东",
+      "letters": "dongying"
+    },
+    {
+      "name": "鄂尔多斯",
+      "province": "内蒙古",
+      "letters": "eerduosi"
+    },
+    {
+      "name": "恩施",
+      "province": "湖北",
+      "letters": "enshi"
+    },
+    {
+      "name": "鄂州",
+      "province": "湖北",
+      "letters": "ezhou"
+    },
+    {
+      "name": "防城港",
+      "province": "广西",
+      "letters": "fangchenggang"
+    },
+    {
+      "name": "佛山",
+      "province": "广东",
+      "letters": "foshan"
+    },
+    {
+      "name": "抚顺",
+      "province": "辽宁",
+      "letters": "fushun"
+    },
+    {
+      "name": "阜新",
+      "province": "辽宁",
+      "letters": "fuxin"
+    },
+    {
+      "name": "阜阳",
+      "province": "安徽",
+      "letters": "fuyang"
+    },
+    {
+      "name": "福州",
+      "province": "福建",
+      "letters": "fuzhou"
+    },
+    {
+      "name": "抚州",
+      "province": "江西",
+      "letters": "fuzhou"
+    },
+    {
+      "name": "甘南",
+      "province": "甘肃",
+      "letters": "gannan"
+    },
+    {
+      "name": "赣州",
+      "province": "江西",
+      "letters": "ganzhou"
+    },
+    {
+      "name": "甘孜",
+      "province": "四川",
+      "letters": "ganzi"
+    },
+    {
+      "name": "高雄",
+      "province": "台湾",
+      "letters": "gaoxiong"
+    },
+    {
+      "name": "广安",
+      "province": "四川",
+      "letters": "guangan"
+    },
+    {
+      "name": "广元",
+      "province": "四川",
+      "letters": "guangyuan"
+    },
+    {
+      "name": "广州",
+      "province": "广东",
+      "letters": "guangzhou"
+    },
+    {
+      "name": "贵港",
+      "province": "广西",
+      "letters": "guigang"
+    },
+    {
+      "name": "桂林",
+      "province": "广西",
+      "letters": "guilin"
+    },
+    {
+      "name": "贵阳",
+      "province": "贵州",
+      "letters": "guiyang"
+    },
+    {
+      "name": "果洛",
+      "province": "青海",
+      "letters": "guoluo"
+    },
+    {
+      "name": "固原",
+      "province": "宁夏",
+      "letters": "guyuan"
+    },
+    {
+      "name": "哈尔滨",
+      "province": "黑龙江",
+      "letters": "haerbin"
+    },
+    {
+      "name": "海北",
+      "province": "青海",
+      "letters": "haibei"
+    },
+    {
+      "name": "海东",
+      "province": "青海",
+      "letters": "haidong"
+    },
+    {
+      "name": "海口",
+      "province": "海南",
+      "letters": "haikou"
+    },
+    {
+      "name": "海南",
+      "province": "青海",
+      "letters": "hainan"
+    },
+    {
+      "name": "海西",
+      "province": "青海",
+      "letters": "haixi"
+    },
+    {
+      "name": "哈密",
+      "province": "新疆",
+      "letters": "hami"
+    },
+    {
+      "name": "邯郸",
+      "province": "河北",
+      "letters": "handan"
+    },
+    {
+      "name": "杭州",
+      "province": "浙江",
+      "letters": "hangzhou"
+    },
+    {
+      "name": "汉中",
+      "province": "陕西",
+      "letters": "hanzhong"
+    },
+    {
+      "name": "鹤壁",
+      "province": "河南",
+      "letters": "hebi"
+    },
+    {
+      "name": "河池",
+      "province": "广西",
+      "letters": "hechi"
+    },
+    {
+      "name": "合肥",
+      "province": "安徽",
+      "letters": "hefei"
+    },
+    {
+      "name": "鹤岗",
+      "province": "黑龙江",
+      "letters": "hegang"
+    },
+    {
+      "name": "黑河",
+      "province": "黑龙江",
+      "letters": "heihe"
+    },
+    {
+      "name": "衡水",
+      "province": "河北",
+      "letters": "hengshui"
+    },
+    {
+      "name": "衡阳",
+      "province": "湖南",
+      "letters": "hengyang"
+    },
+    {
+      "name": "和田",
+      "province": "新疆",
+      "letters": "hetian"
+    },
+    {
+      "name": "河源",
+      "province": "广东",
+      "letters": "heyuan"
+    },
+    {
+      "name": "菏泽",
+      "province": "山东",
+      "letters": "heze"
+    },
+    {
+      "name": "贺州",
+      "province": "广西",
+      "letters": "hezhou"
+    },
+    {
+      "name": "红河",
+      "province": "云南",
+      "letters": "honghe"
+    },
+    {
+      "name": "淮安",
+      "province": "江苏",
+      "letters": "huaian"
+    },
+    {
+      "name": "淮北",
+      "province": "安徽",
+      "letters": "huaibei"
+    },
+    {
+      "name": "怀化",
+      "province": "湖南",
+      "letters": "huaihua"
+    },
+    {
+      "name": "淮南",
+      "province": "安徽",
+      "letters": "huainan"
+    },
+    {
+      "name": "黄冈",
+      "province": "湖北",
+      "letters": "huanggang"
+    },
+    {
+      "name": "黄南",
+      "province": "青海",
+      "letters": "huangnan"
+    },
+    {
+      "name": "黄山",
+      "province": "安徽",
+      "letters": "huangshan"
+    },
+    {
+      "name": "黄石",
+      "province": "湖北",
+      "letters": "huangshi"
+    },
+    {
+      "name": "呼和浩特",
+      "province": "内蒙古",
+      "letters": "huhehaote"
+    },
+    {
+      "name": "惠州",
+      "province": "广东",
+      "letters": "huizhou"
+    },
+    {
+      "name": "葫芦岛",
+      "province": "辽宁",
+      "letters": "huludao"
+    },
+    {
+      "name": "呼伦贝尔",
+      "province": "内蒙古",
+      "letters": "hulunbeier"
+    },
+    {
+      "name": "湖州",
+      "province": "浙江",
+      "letters": "huzhou"
+    },
+    {
+      "name": "佳木斯",
+      "province": "黑龙江",
+      "letters": "jiamusi"
+    },
+    {
+      "name": "吉安",
+      "province": "江西",
+      "letters": "jian"
+    },
+    {
+      "name": "江门",
+      "province": "广东",
+      "letters": "jiangmen"
+    },
+    {
+      "name": "焦作",
+      "province": "河南",
+      "letters": "jiaozuo"
+    },
+    {
+      "name": "嘉兴",
+      "province": "浙江",
+      "letters": "jiaxing"
+    },
+    {
+      "name": "嘉峪关",
+      "province": "甘肃",
+      "letters": "jiayuguan"
+    },
+    {
+      "name": "揭阳",
+      "province": "广东",
+      "letters": "jieyang"
+    },
+    {
+      "name": "吉林",
+      "province": "吉林",
+      "letters": "jilin"
+    },
+    {
+      "name": "济南",
+      "province": "山东",
+      "letters": "jinan"
+    },
+    {
+      "name": "金昌",
+      "province": "甘肃",
+      "letters": "jinchang"
+    },
+    {
+      "name": "晋城",
+      "province": "山西",
+      "letters": "jincheng"
+    },
+    {
+      "name": "景德镇",
+      "province": "江西",
+      "letters": "jingdezhen"
+    },
+    {
+      "name": "荆门",
+      "province": "湖北",
+      "letters": "jingmen"
+    },
+    {
+      "name": "荆州",
+      "province": "湖北",
+      "letters": "jingzhou"
+    },
+    {
+      "name": "金华",
+      "province": "浙江",
+      "letters": "jinhua"
+    },
+    {
+      "name": "济宁",
+      "province": "山东",
+      "letters": "jining"
+    },
+    {
+      "name": "晋中",
+      "province": "山西",
+      "letters": "jinzhong"
+    },
+    {
+      "name": "锦州",
+      "province": "辽宁",
+      "letters": "jinzhou"
+    },
+    {
+      "name": "九江",
+      "province": "江西",
+      "letters": "jiujiang"
+    },
+    {
+      "name": "酒泉",
+      "province": "甘肃",
+      "letters": "jiuquan"
+    },
+    {
+      "name": "鸡西",
+      "province": "黑龙江",
+      "letters": "jixi"
+    },
+    {
+      "name": "济源",
+      "province": "河南",
+      "letters": "jiyuan"
+    },
+    {
+      "name": "开封",
+      "province": "河南",
+      "letters": "kaifeng"
+    },
+    {
+      "name": "喀什",
+      "province": "新疆",
+      "letters": "kashen"
+    },
+    {
+      "name": "克拉玛依",
+      "province": "新疆",
+      "letters": "kelamayi"
+    },
+    {
+      "name": "克州",
+      "province": "新疆",
+      "letters": "kezhou"
+    },
+    {
+      "name": "昆明",
+      "province": "云南",
+      "letters": "kunming"
+    },
+    {
+      "name": "来宾",
+      "province": "广西",
+      "letters": "laibin"
+    },
+    {
+      "name": "莱芜",
+      "province": "山东",
+      "letters": "laiwu"
+    },
+    {
+      "name": "廊坊",
+      "province": "河北",
+      "letters": "langfang"
+    },
+    {
+      "name": "兰州",
+      "province": "甘肃",
+      "letters": "lanzhou"
+    },
+    {
+      "name": "拉萨",
+      "province": "西藏",
+      "letters": "lasa"
+    },
+    {
+      "name": "乐东",
+      "province": "海南",
+      "letters": "ledong"
+    },
+    {
+      "name": "乐山",
+      "province": "四川",
+      "letters": "leshan"
+    },
+    {
+      "name": "凉山",
+      "province": "四川",
+      "letters": "liangshan"
+    },
+    {
+      "name": "连云港",
+      "province": "江苏",
+      "letters": "lianyungang"
+    },
+    {
+      "name": "聊城",
+      "province": "山东",
+      "letters": "liaocheng"
+    },
+    {
+      "name": "辽阳",
+      "province": "辽宁",
+      "letters": "liaoyang"
+    },
+    {
+      "name": "辽源",
+      "province": "吉林",
+      "letters": "liaoyuan"
+    },
+    {
+      "name": "丽江",
+      "province": "云南",
+      "letters": "lijiang"
+    },
+    {
+      "name": "临沧",
+      "province": "云南",
+      "letters": "lincang"
+    },
+    {
+      "name": "临汾",
+      "province": "山西",
+      "letters": "linfen"
+    },
+    {
+      "name": "临高",
+      "province": "海南",
+      "letters": "lingao"
+    },
+    {
+      "name": "陵水",
+      "province": "海南",
+      "letters": "lingshui"
+    },
+    {
+      "name": "临夏",
+      "province": "甘肃",
+      "letters": "linxia"
+    },
+    {
+      "name": "临沂",
+      "province": "山东",
+      "letters": "linyi"
+    },
+    {
+      "name": "林芝",
+      "province": "西藏",
+      "letters": "linzhi"
+    },
+    {
+      "name": "丽水",
+      "province": "浙江",
+      "letters": "lishui"
+    },
+    {
+      "name": "六安",
+      "province": "安徽",
+      "letters": "liuan"
+    },
+    {
+      "name": "六盘水",
+      "province": "贵州",
+      "letters": "liupanshui"
+    },
+    {
+      "name": "柳州",
+      "province": "广西",
+      "letters": "liuzhou"
+    },
+    {
+      "name": "陇南",
+      "province": "甘肃",
+      "letters": "longnan"
+    },
+    {
+      "name": "龙岩",
+      "province": "福建",
+      "letters": "longyan"
+    },
+    {
+      "name": "娄底",
+      "province": "湖南",
+      "letters": "loudi"
+    },
+    {
+      "name": "漯河",
+      "province": "河南",
+      "letters": "luohe"
+    },
+    {
+      "name": "洛阳",
+      "province": "河南",
+      "letters": "luoyang"
+    },
+    {
+      "name": "泸州",
+      "province": "四川",
+      "letters": "luzhou"
+    },
+    {
+      "name": "吕梁",
+      "province": "山西",
+      "letters": "lvliang"
+    },
+    {
+      "name": "马鞍山",
+      "province": "安徽",
+      "letters": "maanshan"
+    },
+    {
+      "name": "茂名",
+      "province": "广东",
+      "letters": "maoming"
+    },
+    {
+      "name": "眉山",
+      "province": "四川",
+      "letters": "meishan"
+    },
+    {
+      "name": "梅州",
+      "province": "广东",
+      "letters": "meizhou"
+    },
+    {
+      "name": "绵阳",
+      "province": "四川",
+      "letters": "mianyang"
+    },
+    {
+      "name": "牡丹江",
+      "province": "黑龙江",
+      "letters": "mudanjiang"
+    },
+    {
+      "name": "南昌",
+      "province": "江西",
+      "letters": "nanchang"
+    },
+    {
+      "name": "南充",
+      "province": "四川",
+      "letters": "nanchong"
+    },
+    {
+      "name": "南京",
+      "province": "江苏",
+      "letters": "nanjing"
+    },
+    {
+      "name": "南宁",
+      "province": "广西",
+      "letters": "nanning"
+    },
+    {
+      "name": "南平",
+      "province": "福建",
+      "letters": "nanping"
+    },
+    {
+      "name": "南通",
+      "province": "江苏",
+      "letters": "nantong"
+    },
+    {
+      "name": "南阳",
+      "province": "河南",
+      "letters": "nanyang"
+    },
+    {
+      "name": "内江",
+      "province": "四川",
+      "letters": "neijiang"
+    },
+    {
+      "name": "那曲",
+      "province": "西藏",
+      "letters": "neiqu"
+    },
+    {
+      "name": "宁波",
+      "province": "浙江",
+      "letters": "ningbo"
+    },
+    {
+      "name": "宁德",
+      "province": "福建",
+      "letters": "ningde"
+    },
+    {
+      "name": "怒江",
+      "province": "云南",
+      "letters": "nujiang"
+    },
+    {
+      "name": "盘锦",
+      "province": "辽宁",
+      "letters": "panjin"
+    },
+    {
+      "name": "攀枝花",
+      "province": "四川",
+      "letters": "panzhihua"
+    },
+    {
+      "name": "平顶山",
+      "province": "河南",
+      "letters": "pingdingshan"
+    },
+    {
+      "name": "平凉",
+      "province": "甘肃",
+      "letters": "pingliang"
+    },
+    {
+      "name": "萍乡",
+      "province": "江西",
+      "letters": "pingxiang"
+    },
+    {
+      "name": "普洱",
+      "province": "云南",
+      "letters": "puer"
+    },
+    {
+      "name": "莆田",
+      "province": "福建",
+      "letters": "putian"
+    },
+    {
+      "name": "濮阳",
+      "province": "河南",
+      "letters": "puyang"
+    },
+    {
+      "name": "黔东南",
+      "province": "贵州",
+      "letters": "qiandongnan"
+    },
+    {
+      "name": "潜江",
+      "province": "湖北",
+      "letters": "qianjiang"
+    },
+    {
+      "name": "黔南",
+      "province": "贵州",
+      "letters": "qiannan"
+    },
+    {
+      "name": "黔西南",
+      "province": "贵州",
+      "letters": "qianxinan"
+    },
+    {
+      "name": "青岛",
+      "province": "山东",
+      "letters": "qingdao"
+    },
+    {
+      "name": "庆阳",
+      "province": "甘肃",
+      "letters": "qingyang"
+    },
+    {
+      "name": "清远",
+      "province": "广东",
+      "letters": "qingyuan"
+    },
+    {
+      "name": "秦皇岛",
+      "province": "河北",
+      "letters": "qinhuangdao"
+    },
+    {
+      "name": "钦州",
+      "province": "广西",
+      "letters": "qinzhou"
+    },
+    {
+      "name": "琼海",
+      "province": "海南",
+      "letters": "qionghai"
+    },
+    {
+      "name": "琼中",
+      "province": "海南",
+      "letters": "qiongzhong"
+    },
+    {
+      "name": "齐齐哈尔",
+      "province": "黑龙江",
+      "letters": "qiqihaer"
+    },
+    {
+      "name": "七台河",
+      "province": "黑龙江",
+      "letters": "qitaihe"
+    },
+    {
+      "name": "泉州",
+      "province": "福建",
+      "letters": "quanzhou"
+    },
+    {
+      "name": "曲靖",
+      "province": "云南",
+      "letters": "qujing"
+    },
+    {
+      "name": "衢州",
+      "province": "浙江",
+      "letters": "quzhou"
+    },
+    {
+      "name": "日喀则",
+      "province": "西藏",
+      "letters": "rikaze"
+    },
+    {
+      "name": "日照",
+      "province": "山东",
+      "letters": "rizhao"
+    },
+    {
+      "name": "三门峡",
+      "province": "河南",
+      "letters": "sanmenxia"
+    },
+    {
+      "name": "三明",
+      "province": "福建",
+      "letters": "sanming"
+    },
+    {
+      "name": "三沙",
+      "province": "海南",
+      "letters": "sansha"
+    },
+    {
+      "name": "三亚",
+      "province": "海南",
+      "letters": "sanya"
+    },
+    {
+      "name": "三亚",
+      "province": "海南",
+      "letters": "sanya"
+    },
+    {
+      "name": "三亚",
+      "province": "海南",
+      "letters": "sanya"
+    },
+    {
+      "name": "三亚",
+      "province": "海南",
+      "letters": "sanya"
+    },
+    {
+      "name": "厦门",
+      "province": "福建",
+      "letters": "shamen"
+    },
+    {
+      "name": "上海",
+      "province": "上海",
+      "letters": "shanghai"
+    },
+    {
+      "name": "商洛",
+      "province": "陕西",
+      "letters": "shangluo"
+    },
+    {
+      "name": "商丘",
+      "province": "河南",
+      "letters": "shangqiu"
+    },
+    {
+      "name": "上饶",
+      "province": "江西",
+      "letters": "shangrao"
+    },
+    {
+      "name": "山南",
+      "province": "西藏",
+      "letters": "shannan"
+    },
+    {
+      "name": "汕头",
+      "province": "广东",
+      "letters": "shantou"
+    },
+    {
+      "name": "汕尾",
+      "province": "广东",
+      "letters": "shanwei"
+    },
+    {
+      "name": "韶关",
+      "province": "广东",
+      "letters": "shaoguan"
+    },
+    {
+      "name": "绍兴",
+      "province": "浙江",
+      "letters": "shaoxing"
+    },
+    {
+      "name": "邵阳",
+      "province": "湖南",
+      "letters": "shaoyang"
+    },
+    {
+      "name": "神农架",
+      "province": "湖北",
+      "letters": "shennongjia"
+    },
+    {
+      "name": "沈阳",
+      "province": "辽宁",
+      "letters": "shenyang"
+    },
+    {
+      "name": "深圳",
+      "province": "广东",
+      "letters": "shenzhen"
+    },
+    {
+      "name": "石河子",
+      "province": "新疆",
+      "letters": "shihezi"
+    },
+    {
+      "name": "石家庄",
+      "province": "河北",
+      "letters": "shijiazhuang"
+    },
+    {
+      "name": "十堰",
+      "province": "湖北",
+      "letters": "shiyan"
+    },
+    {
+      "name": "石嘴山",
+      "province": "宁夏",
+      "letters": "shizuishan"
+    },
+    {
+      "name": "双鸭山",
+      "province": "黑龙江",
+      "letters": "shuangyashan"
+    },
+    {
+      "name": "朔州",
+      "province": "山西",
+      "letters": "shuozhou"
+    },
+    {
+      "name": "四平",
+      "province": "吉林",
+      "letters": "siping"
+    },
+    {
+      "name": "松原",
+      "province": "吉林",
+      "letters": "songyuan"
+    },
+    {
+      "name": "绥化",
+      "province": "黑龙江",
+      "letters": "suihua"
+    },
+    {
+      "name": "遂宁",
+      "province": "四川",
+      "letters": "suining"
+    },
+    {
+      "name": "随州",
+      "province": "湖北",
+      "letters": "suizhou"
+    },
+    {
+      "name": "宿迁",
+      "province": "江苏",
+      "letters": "suqian"
+    },
+    {
+      "name": "苏州",
+      "province": "江苏",
+      "letters": "suzhou"
+    },
+    {
+      "name": "宿州",
+      "province": "安徽",
+      "letters": "suzhou"
+    },
+    {
+      "name": "塔城",
+      "province": "新疆",
+      "letters": "tacheng"
+    },
+    {
+      "name": "泰安",
+      "province": "山东",
+      "letters": "taian"
+    },
+    {
+      "name": "台北",
+      "province": "台湾",
+      "letters": "taibei"
+    },
+    {
+      "name": "太原",
+      "province": "山西",
+      "letters": "taiyuan"
+    },
+    {
+      "name": "台中",
+      "province": "台湾",
+      "letters": "taizhong"
+    },
+    {
+      "name": "泰州",
+      "province": "江苏",
+      "letters": "taizhou"
+    },
+    {
+      "name": "台州",
+      "province": "浙江",
+      "letters": "taizhou"
+    },
+    {
+      "name": "唐山",
+      "province": "河北",
+      "letters": "tangshan"
+    },
+    {
+      "name": "天津",
+      "province": "天津",
+      "letters": "tianjin"
+    },
+    {
+      "name": "天门",
+      "province": "湖北",
+      "letters": "tianmen"
+    },
+    {
+      "name": "天水",
+      "province": "甘肃",
+      "letters": "tianshui"
+    },
+    {
+      "name": "铁岭",
+      "province": "辽宁",
+      "letters": "tieling"
+    },
+    {
+      "name": "铁门关",
+      "province": "新疆",
+      "letters": "tiemenguan"
+    },
+    {
+      "name": "铜川",
+      "province": "陕西",
+      "letters": "tongchuan"
+    },
+    {
+      "name": "通化",
+      "province": "吉林",
+      "letters": "tonghua"
+    },
+    {
+      "name": "通辽",
+      "province": "内蒙古",
+      "letters": "tongliao"
+    },
+    {
+      "name": "铜陵",
+      "province": "安徽",
+      "letters": "tongling"
+    },
+    {
+      "name": "铜仁",
+      "province": "贵州",
+      "letters": "tongren"
+    },
+    {
+      "name": "吐鲁番",
+      "province": "新疆",
+      "letters": "tulufan"
+    },
+    {
+      "name": "图木舒克",
+      "province": "新疆",
+      "letters": "tumushuke"
+    },
+    {
+      "name": "屯昌",
+      "province": "海南",
+      "letters": "tunchang"
+    },
+    {
+      "name": "万宁",
+      "province": "海南",
+      "letters": "wanning"
+    },
+    {
+      "name": "潍坊",
+      "province": "山东",
+      "letters": "weifang"
+    },
+    {
+      "name": "威海",
+      "province": "山东",
+      "letters": "weihai"
+    },
+    {
+      "name": "渭南",
+      "province": "陕西",
+      "letters": "weinan"
+    },
+    {
+      "name": "文昌",
+      "province": "海南",
+      "letters": "wenchang"
+    },
+    {
+      "name": "文山",
+      "province": "云南",
+      "letters": "wenshan"
+    },
+    {
+      "name": "温州",
+      "province": "浙江",
+      "letters": "wenzhou"
+    },
+    {
+      "name": "乌海",
+      "province": "内蒙古",
+      "letters": "wuhai"
+    },
+    {
+      "name": "武汉",
+      "province": "湖北",
+      "letters": "wuhan"
+    },
+    {
+      "name": "芜湖",
+      "province": "安徽",
+      "letters": "wuhu"
+    },
+    {
+      "name": "五家渠",
+      "province": "新疆",
+      "letters": "wujiaqu"
+    },
+    {
+      "name": "乌兰察布",
+      "province": "内蒙古",
+      "letters": "wulanchabu"
+    },
+    {
+      "name": "乌鲁木齐",
+      "province": "新疆",
+      "letters": "wulumuqi"
+    },
+    {
+      "name": "武威",
+      "province": "甘肃",
+      "letters": "wuwei"
+    },
+    {
+      "name": "无锡",
+      "province": "江苏",
+      "letters": "wuxi"
+    },
+    {
+      "name": "五指山",
+      "province": "海南",
+      "letters": "wuzhishan"
+    },
+    {
+      "name": "吴忠",
+      "province": "宁夏",
+      "letters": "wuzhong"
+    },
+    {
+      "name": "梧州",
+      "province": "广西",
+      "letters": "wuzhou"
+    },
+    {
+      "name": "西安",
+      "province": "陕西",
+      "letters": "xian"
+    },
+    {
+      "name": "香港",
+      "province": "香港",
+      "letters": "xianggang"
+    },
+    {
+      "name": "湘潭",
+      "province": "湖南",
+      "letters": "xiangtan"
+    },
+    {
+      "name": "湘西",
+      "province": "湖南",
+      "letters": "xiangxi"
+    },
+    {
+      "name": "襄阳",
+      "province": "湖北",
+      "letters": "xiangyang"
+    },
+    {
+      "name": "咸宁",
+      "province": "湖北",
+      "letters": "xianning"
+    },
+    {
+      "name": "仙桃",
+      "province": "湖北",
+      "letters": "xiantao"
+    },
+    {
+      "name": "咸阳",
+      "province": "陕西",
+      "letters": "xianyang"
+    },
+    {
+      "name": "孝感",
+      "province": "湖北",
+      "letters": "xiaogan"
+    },
+    {
+      "name": "锡林郭勒",
+      "province": "内蒙古",
+      "letters": "xilinguole"
+    },
+    {
+      "name": "兴安盟",
+      "province": "内蒙古",
+      "letters": "xinganmeng"
+    },
+    {
+      "name": "邢台",
+      "province": "河北",
+      "letters": "xingtai"
+    },
+    {
+      "name": "西宁",
+      "province": "青海",
+      "letters": "xining"
+    },
+    {
+      "name": "新乡",
+      "province": "河南",
+      "letters": "xinxiang"
+    },
+    {
+      "name": "信阳",
+      "province": "河南",
+      "letters": "xinyang"
+    },
+    {
+      "name": "新余",
+      "province": "江西",
+      "letters": "xinyu"
+    },
+    {
+      "name": "忻州",
+      "province": "山西",
+      "letters": "xinzhou"
+    },
+    {
+      "name": "西双版纳",
+      "province": "云南",
+      "letters": "xishuangbanna"
+    },
+    {
+      "name": "宣城",
+      "province": "安徽",
+      "letters": "xuancheng"
+    },
+    {
+      "name": "许昌",
+      "province": "河南",
+      "letters": "xuchang"
+    },
+    {
+      "name": "徐州",
+      "province": "江苏",
+      "letters": "xuzhou"
+    },
+    {
+      "name": "雅安",
+      "province": "四川",
+      "letters": "yaan"
+    },
+    {
+      "name": "延安",
+      "province": "陕西",
+      "letters": "yanan"
+    },
+    {
+      "name": "延边",
+      "province": "吉林",
+      "letters": "yanbian"
+    },
+    {
+      "name": "盐城",
+      "province": "江苏",
+      "letters": "yancheng"
+    },
+    {
+      "name": "阳江",
+      "province": "广东",
+      "letters": "yangjiang"
+    },
+    {
+      "name": "杨凌",
+      "province": "陕西",
+      "letters": "yangling"
+    },
+    {
+      "name": "阳泉",
+      "province": "山西",
+      "letters": "yangquan"
+    },
+    {
+      "name": "扬州",
+      "province": "江苏",
+      "letters": "yangzhou"
+    },
+    {
+      "name": "烟台",
+      "province": "山东",
+      "letters": "yantai"
+    },
+    {
+      "name": "宜宾",
+      "province": "四川",
+      "letters": "yibin"
+    },
+    {
+      "name": "宜昌",
+      "province": "湖北",
+      "letters": "yichang"
+    },
+    {
+      "name": "伊春",
+      "province": "黑龙江",
+      "letters": "yichun"
+    },
+    {
+      "name": "宜春",
+      "province": "江西",
+      "letters": "yichun"
+    },
+    {
+      "name": "伊犁",
+      "province": "新疆",
+      "letters": "yili"
+    },
+    {
+      "name": "银川",
+      "province": "宁夏",
+      "letters": "yinchuan"
+    },
+    {
+      "name": "营口",
+      "province": "辽宁",
+      "letters": "yingkou"
+    },
+    {
+      "name": "鹰潭",
+      "province": "江西",
+      "letters": "yingtan"
+    },
+    {
+      "name": "益阳",
+      "province": "湖南",
+      "letters": "yiyang"
+    },
+    {
+      "name": "永州",
+      "province": "湖南",
+      "letters": "yongzhou"
+    },
+    {
+      "name": "岳阳",
+      "province": "湖南",
+      "letters": "yueyang"
+    },
+    {
+      "name": "榆林",
+      "province": "陕西",
+      "letters": "yulin"
+    },
+    {
+      "name": "玉林",
+      "province": "广西",
+      "letters": "yulin"
+    },
+    {
+      "name": "运城",
+      "province": "山西",
+      "letters": "yuncheng"
+    },
+    {
+      "name": "云浮",
+      "province": "广东",
+      "letters": "yunfu"
+    },
+    {
+      "name": "玉树",
+      "province": "青海",
+      "letters": "yushu"
+    },
+    {
+      "name": "玉溪",
+      "province": "云南",
+      "letters": "yuxi"
+    },
+    {
+      "name": "枣庄",
+      "province": "山东",
+      "letters": "zaozhuang"
+    },
+    {
+      "name": "长春",
+      "province": "吉林",
+      "letters": "zhangchun"
+    },
+    {
+      "name": "张家界",
+      "province": "湖南",
+      "letters": "zhangjiajie"
+    },
+    {
+      "name": "张家口",
+      "province": "河北",
+      "letters": "zhangjiakou"
+    },
+    {
+      "name": "长沙",
+      "province": "湖南",
+      "letters": "zhangsha"
+    },
+    {
+      "name": "张掖",
+      "province": "甘肃",
+      "letters": "zhangye"
+    },
+    {
+      "name": "长治",
+      "province": "山西",
+      "letters": "zhangzhi"
+    },
+    {
+      "name": "漳州",
+      "province": "福建",
+      "letters": "zhangzhou"
+    },
+    {
+      "name": "湛江",
+      "province": "广东",
+      "letters": "zhanjiang"
+    },
+    {
+      "name": "肇庆",
+      "province": "广东",
+      "letters": "zhaoqing"
+    },
+    {
+      "name": "昭通",
+      "province": "云南",
+      "letters": "zhaotong"
+    },
+    {
+      "name": "郑州",
+      "province": "河南",
+      "letters": "zhengzhou"
+    },
+    {
+      "name": "镇江",
+      "province": "江苏",
+      "letters": "zhenjiang"
+    },
+    {
+      "name": "重庆",
+      "province": "重庆",
+      "letters": "zhongqing"
+    },
+    {
+      "name": "中山",
+      "province": "广东",
+      "letters": "zhongshan"
+    },
+    {
+      "name": "中卫",
+      "province": "宁夏",
+      "letters": "zhongwei"
+    },
+    {
+      "name": "周口",
+      "province": "河南",
+      "letters": "zhoukou"
+    },
+    {
+      "name": "舟山",
+      "province": "浙江",
+      "letters": "zhoushan"
+    },
+    {
+      "name": "珠海",
+      "province": "广东",
+      "letters": "zhuhai"
+    },
+    {
+      "name": "驻马店",
+      "province": "河南",
+      "letters": "zhumadian"
+    },
+    {
+      "name": "株洲",
+      "province": "湖南",
+      "letters": "zhuzhou"
+    },
+    {
+      "name": "淄博",
+      "province": "山东",
+      "letters": "zibo"
+    },
+    {
+      "name": "自贡",
+      "province": "四川",
+      "letters": "zigong"
+    },
+    {
+      "name": "资阳",
+      "province": "四川",
+      "letters": "ziyang"
+    },
+    {
+      "name": "遵义",
+      "province": "贵州",
+      "letters": "zunyi"
+    }
+  ]
+}

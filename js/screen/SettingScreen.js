@@ -35,7 +35,7 @@ export default class SettingScreen extends NavigationPage {
     renderPage() {
         return(
             <ListRow
-                title='Select theme'
+                title='选择主题'
                 onPress={() => {
                     this.changeTheme()
                 }}

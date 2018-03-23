@@ -1,47 +1,19 @@
 import React from 'react';
-import { ScrollView,View, StyleSheet } from 'react-native'
+import { ScrollView,View, InteractionManager, StyleSheet } from 'react-native'
 
 import { NavigationPage, ListRow, Button, Label, Toast } from 'teaset';
 import IconE from 'react-native-vector-icons/EvilIcons';
 
 import getCoordinates from "../utils/Gps";
+import CityListView from "./city/CityListView";
 
-/*const GeoHighAccuracy = () => {
-    return new Promise((resolve, reject) => {
-        navigator.geolocation.getCurrentPosition(
-            (locHighAccuracy) => {
-                resolve(locHighAccuracy)
-            },
-            (error) => {
-                GeoLowAccuracy()
-                    .then((locLowAccuracy) => {
-                        resolve(locLowAccuracy)
-                    })
-                    .catch((err) => {
-                        reject(err)
-                    });
-            },
-            {enableHighAccuracy: true, timeout: 25000, maximumAge: 0}
-        )
-    })
-};
+import DATA_JSON from '../../data/cities';
 
-const GeoLowAccuracy = () => {
-    return new Promise((resolve, reject) => {
-        navigator.geolocation.getCurrentPosition(
-            (locLowAccuracy) => {
-                resolve(locLowAccuracy)
-            },
-            (error) => {
-                reject(error)
-            },
-            {enableHighAccuracy: false, timeout: 5000, maximumAge: 3600000}
-        )
-    })
-};*/
+const LAST_CITES = DATA_JSON.lastCities;
+const HOT_CITIES = DATA_JSON.hotCities;
+const ALL_CITIES = DATA_JSON.allCities;
 
 const URL = 'http://restapi.amap.com/v3/geocode/regeo?key=60be2ee5d03cd873218700f792ef7403&location=';
-const HOT_CITIES = Array('北京', '上海', '广州', '深圳', '成都', '杭州', '南京', '天津', '武汉', '重庆');
 
 export default class LocationScreen extends NavigationPage {
     constructor(props) {
@@ -50,17 +22,21 @@ export default class LocationScreen extends NavigationPage {
         this.state = {
             location: null,
             error: null,
+            isLoad: false
         };
     }
 
     static defaultProps = {
         ...NavigationPage.defaultProps,
         title: '选择城市',
-        showBackButton: true,
+        showBackButton: true
     };
 
     componentDidMount() {
-        this.getLocation()
+        InteractionManager.runAfterInteractions(()=>{
+            this.getLocation();
+            this.setState({isLoad: true})
+        });
     }
 
     getLocation() {
@@ -90,6 +66,7 @@ export default class LocationScreen extends NavigationPage {
         return <ListRow
             title={title}
             titleStyle={{ fontSize: 12,
+                fontWeight: 'bold',
                 color: global.theme.primaryColor}}
             bottomSeparator={'none'}
             style={styles.title}/>
@@ -97,14 +74,14 @@ export default class LocationScreen extends NavigationPage {
 
     static addButtons(cites){
         const buttons = [];
-        for (let title of cites){
+        for (let cityJson of cites){
             buttons.push(
                 <Button
-                    title={title}
+                    title={cityJson.name}
                     key={'default'}
                     style={styles.button}
                     onPress={() => {
-                        Toast.message(title)
+                        Toast.message(cityJson.name)
                     }}/>
             )
         }
@@ -117,7 +94,7 @@ export default class LocationScreen extends NavigationPage {
 
     renderPage() {
         return(
-            <ScrollView>
+            <View style={{flex: 1}}>
                 <View style={styles.space}/>
 
                 {this.addTitle('当前')}
@@ -134,11 +111,15 @@ export default class LocationScreen extends NavigationPage {
                     </Button>
                 </View>
 
-                {this.addTitle('最近')}
-
-                {this.addTitle('热门')}
-                {LocationScreen.addButtons(HOT_CITIES)}
-            </ScrollView>
+                <View style={{flex: 1}}>
+                    {this.state.isLoad
+                        ? <CityListView
+                            lastCities={LAST_CITES}
+                            hotCities={HOT_CITIES}
+                            allCities={ALL_CITIES}/>
+                        : <Label>Loading...</Label>}
+                </View>
+            </View>
         )
     }
 }
@@ -148,7 +129,7 @@ const styles = StyleSheet.create({
         height: 10
     },
     title: {
-        backgroundColor: '#d5d5d5',
+        backgroundColor: '#d5d5d5'
     },
     button: {
         margin: 10

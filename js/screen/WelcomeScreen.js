@@ -19,8 +19,8 @@ export default class WelcomeScreen extends BasePage {
                 </View>
                 <View style={styles.slide3}>
                     <Text style={styles.text}>And simple</Text>
-                    <Button title='Start' onPress={() => {
-                        this.navigator.push({view: <MainScreen/>})
+                    <Button title='点击进入' onPress={() => {
+                        this.navigator.replace({view: <MainScreen/>})
                     }} />
                 </View>
             </Carousel>

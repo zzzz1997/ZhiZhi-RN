@@ -26,10 +26,10 @@ export default class SplashScreen extends BasePage {
             });
             MyStorage._load('isInit', null, null, (isInit) => {
                 if (!isInit) {
-                    this.navigator.push({view: <WelcomeScreen/>});
+                    this.navigator.replace({view: <WelcomeScreen/>});
                     MyStorage._save('isInit', true, null)
                 } else {
-                    this.navigator.push({view: <MainScreen/>})
+                    this.navigator.replace({view: <MainScreen/>})
                 }
             })
         }, 2000);
