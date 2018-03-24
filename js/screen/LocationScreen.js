@@ -1,5 +1,5 @@
 import React from 'react';
-import { ScrollView,View, InteractionManager, StyleSheet } from 'react-native'
+import { View, InteractionManager, StyleSheet } from 'react-native'
 
 import { NavigationPage, ListRow, Button, Label, Toast } from 'teaset';
 import IconE from 'react-native-vector-icons/EvilIcons';
@@ -111,7 +111,7 @@ export default class LocationScreen extends NavigationPage {
                     </Button>
                 </View>
 
-                <View style={{flex: 1}}>
+                <View style={styles.listView}>
                     {this.state.isLoad
                         ? <CityListView
                             lastCities={LAST_CITES}
@@ -137,5 +137,9 @@ const styles = StyleSheet.create({
     buttonsContainer: {
         flexDirection: 'row',
         flexWrap: 'wrap'
+    },
+    listView: {
+        flex: 1,
+        alignItems: 'center'
     }
 });

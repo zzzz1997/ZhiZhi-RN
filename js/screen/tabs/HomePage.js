@@ -1,5 +1,5 @@
 import React from 'react';
-import { ScrollView, View, Platform, Text, Image, TouchableWithoutFeedback, StyleSheet } from 'react-native';
+import { ScrollView, View, Platform, Text, Image, TouchableWithoutFeedback, TouchableOpacity, StyleSheet } from 'react-native';
 
 import { NavigationPage, SearchInput, Carousel, Label, Toast, Theme } from 'teaset';
 import IconE from 'react-native-vector-icons/EvilIcons';
@@ -16,6 +16,14 @@ export default class HomePage extends NavigationPage {
         title: '主页',
         showBackButton: false
     };
+
+    constructor(props) {
+        super(props);
+
+        this.state = {
+            carouselIndex: 0
+        }
+    }
 
     renderPage() {
         return(
@@ -57,27 +65,33 @@ export default class HomePage extends NavigationPage {
                     </View>
                 </View>
 
-                <Carousel
-                    style={styles.carousel}
-                    control={<Carousel.Control
-                        style={{alignItems: 'flex-end'}}
-                        dot={<Text style={styles.dot}>☆</Text>}
-                        activeDot={<Text style={styles.activeDot}>★</Text>}/>}
-                        onPress={() => {
-                            Toast.message('clicked!')
+                <TouchableOpacity
+                    activeOpacity={0.8}
+                    onPress={() => {
+                        Toast.message(this.state.carouselIndex)
+                    }}>
+                    <Carousel
+                        style={styles.carousel}
+                        control={<Carousel.Control
+                            style={{alignItems: 'flex-end'}}
+                            dot={<Text style={styles.dot}>☆</Text>}
+                            activeDot={<Text style={styles.activeDot}>★</Text>}/>}
+                        onChange={(index) => {
+                            this.setState({carouselIndex: index})
                         }}>
-                    <View style={styles.slide1}>
-                        <Image source={require('../../../img/dyp.png')}/>
-                    </View>
+                        <View style={styles.slide1}>
+                            <Image source={require('../../../img/dyp.png')}/>
+                        </View>
 
-                    <View style={styles.slide2}>
-                        <Label style={styles.text}>Beautiful</Label>
-                    </View>
+                        <View style={styles.slide2}>
+                            <Label style={styles.text}>Beautiful</Label>
+                        </View>
 
-                    <View style={styles.slide3}>
-                        <Label style={styles.text}>And simple</Label>
-                    </View>
-                </Carousel>
+                        <View style={styles.slide3}>
+                            <Label style={styles.text}>And simple</Label>
+                        </View>
+                    </Carousel>
+                </TouchableOpacity>
 
                 <ImageButton image={require('../../../img/dyp.png')}
                              text={'电影票'}
