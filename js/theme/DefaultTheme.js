@@ -19,6 +19,9 @@ const pixelSize = (function() {
     else return 1;
 })();
 
+/**
+ * 默认主题
+ */
 export default {
     fitIPhoneX: true,
 

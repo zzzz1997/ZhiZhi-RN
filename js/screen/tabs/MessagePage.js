@@ -1,7 +1,12 @@
 import React from 'react';
 
-import { NavigationPage, Label } from 'teaset'
+import { NavigationPage,
+    Label
+} from 'teaset'
 
+/**
+ * 消息页面
+ */
 export default class MessagePage extends NavigationPage {
     static defaultProps = {
         ...NavigationPage.defaultProps,

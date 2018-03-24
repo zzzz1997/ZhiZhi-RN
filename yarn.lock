@@ -4148,6 +4148,10 @@ react-devtools-core@3.1.0:
     react-timer-mixin "^0.13.2"
     rebound "^0.0.13"
 
+react-native-pull@^2.0.2:
+  version "2.0.2"
+  resolved "http://registry.npm.taobao.org/react-native-pull/download/react-native-pull-2.0.2.tgz#15264a737bcf56debd4bacaa2705254d9ef1b345"
+
 react-native-smart-barcode@^1.0.6:
   version "1.0.6"
   resolved "http://registry.npm.taobao.org/react-native-smart-barcode/download/react-native-smart-barcode-1.0.6.tgz#7411586c687ed25b6adf456f949b39699c63db5e"

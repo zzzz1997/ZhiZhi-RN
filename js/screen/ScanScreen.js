@@ -5,48 +5,68 @@ import {StyleSheet,
 
 import Barcode from 'react-native-smart-barcode'
 
-type Props = {};
-export default class ScanScreen extends Component<Props> {
-    //构造方法
+/**
+ * 扫描页面
+ */
+export default class ScanScreen extends Component {
     constructor(props) {
         super(props);
         this.state = {
+            // 扫描界面显示控制
             viewAppear: false,
         };
     }
+
     componentDidMount() {
         //启动定时器
-        this.timer = setTimeout(
-            () => this.setState({viewAppear: true}),
-            250
-        );
+        this.timer = setTimeout(() => {
+            this.setState({viewAppear: true})
+        }, 250);
     }
-    //组件销毁生命周期
+
     componentWillUnmount() {
-        //清楚定时器
+        // 清除定时器
         this.timer && clearTimeout(this.timer);
     }
 
-    _onBarCodeRead = (e) => {
+    /**
+     * 扫描结果处理
+     *
+     * @param e 扫面结果
+     * @private true
+     */
+    onBarCodeRead = (e) => {
         this._stopScan();
         Alert.alert("二维码", e.nativeEvent.data.code, [
             {text: '确认', onPress: () => this._startScan()},
         ])
     };
 
-    _startScan = (e) => {
+    /**
+     * 开始扫描
+     *
+     * @private
+     */
+    _startScan = () => {
         this._barCode.startScan()
     };
 
-    _stopScan = (e) => {
+    /**
+     * 停止扫描
+     * @private true
+     */
+    _stopScan = () => {
         this._barCode.stopScan()
     };
+
     render() {
         return (
-            <View style={{flex: 1}}>
-                {this.state.viewAppear ?
-                    <Barcode style={{flex: 1,}} ref={component => this._barCode = component}
-                             onBarCodeRead={this._onBarCodeRead}/>
+            <View style={styles.container}>
+                {this.state.viewAppear
+                    ? <Barcode
+                        style={styles.barCode}
+                        ref={component => this._barCode = component}
+                        onBarCodeRead={this.onBarCodeRead}/>
                     : null
                 }
             </View>
@@ -57,18 +77,9 @@ export default class ScanScreen extends Component<Props> {
 const styles = StyleSheet.create({
     container: {
         flex: 1,
-        justifyContent: 'center',
-        alignItems: 'center',
-        backgroundColor: '#F5FCFF',
+        justifyContent: 'center'
     },
-    welcome: {
-        fontSize: 20,
-        textAlign: 'center',
-        margin: 10,
-    },
-    instructions: {
-        textAlign: 'center',
-        color: '#333333',
-        marginBottom: 5,
-    },
+    barCode: {
+        flex: 1
+    }
 });

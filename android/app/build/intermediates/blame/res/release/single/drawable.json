@@ -8,16 +8,16 @@
         "source": "C:\\Users\\asus\\Desktop\\development\\ZhiZhi\\android\\app\\build\\intermediates\\exploded-aar\\com.android.support\\appcompat-v7\\23.4.0\\res\\drawable\\abc_ratingbar_indicator_material.xml"
     },
     {
+        "merged": "C:\\Users\\asus\\Desktop\\development\\ZhiZhi\\android\\app\\build\\intermediates\\res\\merged\\release\\drawable\\abc_btn_borderless_material.xml",
+        "source": "C:\\Users\\asus\\Desktop\\development\\ZhiZhi\\android\\app\\build\\intermediates\\exploded-aar\\com.android.support\\appcompat-v7\\23.4.0\\res\\drawable\\abc_btn_borderless_material.xml"
+    },
+    {
         "merged": "C:\\Users\\asus\\Desktop\\development\\ZhiZhi\\android\\app\\build\\intermediates\\res\\merged\\release\\drawable\\seekbar_thumb_pressed.png",
         "source": "C:\\Users\\asus\\Desktop\\development\\ZhiZhi\\android\\app\\build\\intermediates\\exploded-aar\\ZhiZhi\\react-native-smart-barcode\\unspecified\\res\\drawable\\seekbar_thumb_pressed.png"
     },
     {
         "merged": "C:\\Users\\asus\\Desktop\\development\\ZhiZhi\\android\\app\\build\\intermediates\\res\\merged\\release\\drawable\\seekbar_thumb_normal.png",
         "source": "C:\\Users\\asus\\Desktop\\development\\ZhiZhi\\android\\app\\build\\intermediates\\exploded-aar\\ZhiZhi\\react-native-smart-barcode\\unspecified\\res\\drawable\\seekbar_thumb_normal.png"
-    },
-    {
-        "merged": "C:\\Users\\asus\\Desktop\\development\\ZhiZhi\\android\\app\\build\\intermediates\\res\\merged\\release\\drawable\\abc_btn_borderless_material.xml",
-        "source": "C:\\Users\\asus\\Desktop\\development\\ZhiZhi\\android\\app\\build\\intermediates\\exploded-aar\\com.android.support\\appcompat-v7\\23.4.0\\res\\drawable\\abc_btn_borderless_material.xml"
     },
     {
         "merged": "C:\\Users\\asus\\Desktop\\development\\ZhiZhi\\android\\app\\build\\intermediates\\res\\merged\\release\\drawable\\abc_list_selector_holo_light.xml",
@@ -84,12 +84,12 @@
         "source": "C:\\Users\\asus\\Desktop\\development\\ZhiZhi\\android\\app\\build\\intermediates\\exploded-aar\\com.android.support\\appcompat-v7\\23.4.0\\res\\drawable\\abc_edit_text_material.xml"
     },
     {
-        "merged": "C:\\Users\\asus\\Desktop\\development\\ZhiZhi\\android\\app\\build\\intermediates\\res\\merged\\release\\drawable\\seek_thumb.png",
-        "source": "C:\\Users\\asus\\Desktop\\development\\ZhiZhi\\android\\app\\build\\intermediates\\exploded-aar\\ZhiZhi\\react-native-smart-barcode\\unspecified\\res\\drawable\\seek_thumb.png"
-    },
-    {
         "merged": "C:\\Users\\asus\\Desktop\\development\\ZhiZhi\\android\\app\\build\\intermediates\\res\\merged\\release\\drawable\\abc_seekbar_track_material.xml",
         "source": "C:\\Users\\asus\\Desktop\\development\\ZhiZhi\\android\\app\\build\\intermediates\\exploded-aar\\com.android.support\\appcompat-v7\\23.4.0\\res\\drawable\\abc_seekbar_track_material.xml"
+    },
+    {
+        "merged": "C:\\Users\\asus\\Desktop\\development\\ZhiZhi\\android\\app\\build\\intermediates\\res\\merged\\release\\drawable\\seek_thumb.png",
+        "source": "C:\\Users\\asus\\Desktop\\development\\ZhiZhi\\android\\app\\build\\intermediates\\exploded-aar\\ZhiZhi\\react-native-smart-barcode\\unspecified\\res\\drawable\\seek_thumb.png"
     },
     {
         "merged": "C:\\Users\\asus\\Desktop\\development\\ZhiZhi\\android\\app\\build\\intermediates\\res\\merged\\release\\drawable\\seekbar_horizontal.xml",

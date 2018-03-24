@@ -234,7 +234,7 @@
     {
       "name": "昌都",
       "province": "西藏",
-      "letters": "changdou"
+      "letters": "changdu"
     },
     {
       "name": "昌吉",
@@ -269,7 +269,7 @@
     {
       "name": "成都",
       "province": "四川",
-      "letters": "chengdou"
+      "letters": "chengdu"
     },
     {
       "name": "澄迈",
@@ -290,6 +290,11 @@
       "name": "池州",
       "province": "安徽",
       "letters": "chizhou"
+    },
+    {
+      "name": "重庆",
+      "province": "重庆",
+      "letters": "chongqing"
     },
     {
       "name": "崇左",
@@ -1860,11 +1865,6 @@
       "name": "镇江",
       "province": "江苏",
       "letters": "zhenjiang"
-    },
-    {
-      "name": "重庆",
-      "province": "重庆",
-      "letters": "zhongqing"
     },
     {
       "name": "中山",

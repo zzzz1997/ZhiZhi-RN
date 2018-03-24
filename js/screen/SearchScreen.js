@@ -1,7 +1,12 @@
 import React from 'react';
 
-import { BasePage, SearchInput } from 'teaset'
+import { BasePage,
+    SearchInput
+} from 'teaset'
 
+/**
+ * 搜索页面
+ */
 export default class SearchScreen extends BasePage {
     onDidFocus() {
         this.search.focus()

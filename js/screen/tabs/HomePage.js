@@ -1,15 +1,32 @@
 import React from 'react';
-import { ScrollView, View, Platform, Text, Image, TouchableWithoutFeedback, TouchableOpacity, StyleSheet } from 'react-native';
+import { View,
+    Platform,
+    Text,
+    Image,
+    TouchableWithoutFeedback,
+    TouchableOpacity,
+    StyleSheet
+} from 'react-native';
 
-import { NavigationPage, SearchInput, Carousel, Label, Toast, Theme } from 'teaset';
+import { NavigationPage,
+    SearchInput,
+    Carousel,
+    Label,
+    Toast,
+    Theme
+} from 'teaset';
 import IconE from 'react-native-vector-icons/EvilIcons';
 import IconM from 'react-native-vector-icons/MaterialCommunityIcons';
+import {PullView} from 'react-native-pull';
 
 import SearchScreen from "../SearchScreen";
 import ImageButton from "../../common/ImageButton";
 import ScanScreen from "../ScanScreen";
 import LocationScreen from "../LocationScreen";
 
+/**
+ * 主页页面
+ */
 export default class HomePage extends NavigationPage {
     static defaultProps = {
         ...NavigationPage.defaultProps,
@@ -21,13 +38,25 @@ export default class HomePage extends NavigationPage {
         super(props);
 
         this.state = {
+            // 当前走马灯位置
             carouselIndex: 0
         }
     }
 
+    /**
+     * 下拉刷新
+     * @param resolve 刷新结束方法
+     */
+    onPullRelease(resolve) {
+        Toast.message('刷新成功');
+        setTimeout(() => {
+            resolve()
+        }, 3000);
+    };
+
     renderPage() {
         return(
-            <ScrollView style={styles.container}>
+            <View style={styles.container}>
                 <View
                     style={{flexDirection: 'row',
                         paddingLeft: 10,
@@ -39,6 +68,7 @@ export default class HomePage extends NavigationPage {
                     <View style={styles.headBar}>
                         <TouchableWithoutFeedback
                             onPress={() => {
+                                // 点击进入城市选择页面
                                 this.navigator.push({view: <LocationScreen/>})
                             }}>
                             <View style={styles.location}>
@@ -52,12 +82,13 @@ export default class HomePage extends NavigationPage {
                             style={styles.searchBar}
                             placeholder='找工作'
                             onFocus={() => {
+                                // 点击进入搜索页面
                                 this.navigator.push({view: <SearchScreen/>})
                             }}/>
 
                         <TouchableWithoutFeedback
                             onPress={() => {
-                                Toast.message('dianji');
+                                // 点击进入扫描页面
                                 this.navigator.push({view: <ScanScreen/>})
                             }}>
                             <IconM name={'qrcode-scan'} color={global.theme.tvBarBtnIconTintColor} size={26}/>
@@ -65,41 +96,46 @@ export default class HomePage extends NavigationPage {
                     </View>
                 </View>
 
-                <TouchableOpacity
-                    activeOpacity={0.8}
-                    onPress={() => {
-                        Toast.message(this.state.carouselIndex)
-                    }}>
-                    <Carousel
-                        style={styles.carousel}
-                        control={<Carousel.Control
-                            style={{alignItems: 'flex-end'}}
-                            dot={<Text style={styles.dot}>☆</Text>}
-                            activeDot={<Text style={styles.activeDot}>★</Text>}/>}
-                        onChange={(index) => {
-                            this.setState({carouselIndex: index})
+                <PullView onPullRelease={this.onPullRelease}>
+                    <TouchableOpacity
+                        activeOpacity={0.8}
+                        onPress={() => {
+                            // 走马灯点击事件
+                            Toast.message(this.state.carouselIndex)
                         }}>
-                        <View style={styles.slide1}>
-                            <Image source={require('../../../img/dyp.png')}/>
-                        </View>
+                        <Carousel
+                            style={styles.carousel}
+                            control={<Carousel.Control
+                                style={{alignItems: 'flex-end'}}
+                                dot={<Text style={styles.dot}>☆</Text>}
+                                activeDot={<Text style={styles.activeDot}>★</Text>}/>}
+                            onChange={(index) => {
+                                // 走马灯滑动监听，设置state，便于处理点击事件
+                                this.setState({carouselIndex: index})
+                            }}>
+                            <View style={styles.slide1}>
+                                <Image source={require('../../../img/dyp.png')}/>
+                            </View>
 
-                        <View style={styles.slide2}>
-                            <Label style={styles.text}>Beautiful</Label>
-                        </View>
+                            <View style={styles.slide2}>
+                                <Label style={styles.text}>Beautiful</Label>
+                            </View>
 
-                        <View style={styles.slide3}>
-                            <Label style={styles.text}>And simple</Label>
-                        </View>
-                    </Carousel>
-                </TouchableOpacity>
+                            <View style={styles.slide3}>
+                                <Label style={styles.text}>And simple</Label>
+                            </View>
+                        </Carousel>
+                    </TouchableOpacity>
 
-                <ImageButton image={require('../../../img/dyp.png')}
-                             text={'电影票'}
-                             tag={'test'}
-                             onClick={(title, tag) => {
-                                 Toast.message(title + tag)
-                             }}/>
-            </ScrollView>
+                    <ImageButton image={require('../../../img/dyp.png')}
+                                 text={'电影票'}
+                                 tag={'test'}
+                                 onClick={(title, tag) => {
+                                     Toast.message(title + tag)
+                                 }}/>
+                </PullView
+>
+            </View>
         )
     }
 }

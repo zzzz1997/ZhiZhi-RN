@@ -1,15 +1,15 @@
 import React, { Component } from "react";
 
-import { TeaNavigator, Theme } from 'teaset'
+import { TeaNavigator } from 'teaset'
 
-import DefaultTheme from "./js/theme/DefaultTheme";
 import SplashScreen from "./js/screen/SplashScreen";
 
-const theme = DefaultTheme;
-Theme.set(theme);
-
+/**
+ * 应用入口类
+ */
 export default class App extends Component {
     render() {
+        // 定义导航器TeaNavigator，设置根路由SplashScreen
         return <TeaNavigator rootView={<SplashScreen/>}/>;
     }
 }

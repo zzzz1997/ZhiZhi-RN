@@ -3,9 +3,19 @@ import React, { Component } from 'react';
 import Storage from 'react-native-storage';
 import { AsyncStorage } from 'react-native';
 
+// 存储对象，需要先初始化后使用
 let storage;
 
+/**
+ * 存储类简单封装
+ */
 export default class MyStorage extends Component {
+    /**
+     * 初始化存储对象
+     *
+     * @returns {*} 存储对象
+     * @private false
+     */
     static _getInstance() {
         if(storage === undefined) {
             storage = new Storage({
@@ -16,20 +26,34 @@ export default class MyStorage extends Component {
         return storage
     }
 
-    static _save(key, data, expires) {
+    /**
+     * 存储
+     *
+     * @param key 关键字
+     * @param data 存储数据
+     * @private false
+     */
+    static _save(key, data) {
         storage.save({
             key: key,
             data: data,
-            expires: expires
+            expires: null
         })
     }
 
-    static _load(key, params, someFlag, callBack) {
+    /**
+     * 加载
+     *
+     * @param key 关键字
+     * @param callBack 回调方法
+     * @private false
+     */
+    static _load(key, callBack) {
         storage.load({
             key: key,
             syncParams: {
-                params: params,
-                someFlag: someFlag,
+                params: null,
+                someFlag: null,
             }
         }).then(ret => {
             callBack(ret);
@@ -39,17 +63,23 @@ export default class MyStorage extends Component {
         })
     }
 
+    /**
+     * 移除存储
+     *
+     * @param key 关键字
+     * @private false
+     */
     static _remove(key) {
         storage.remove({
             key: key
         })
     }
 
+    /**
+     * 移除所有存储
+     * @private false
+     */
     static _removeAll() {
         storage.clearMap()
-    }
-
-    static _clearDataByKey(key) {
-        storage.clearMapForKey(key)
     }
 }

@@ -1,12 +1,22 @@
 import React from 'react';
-import { View, Text, StyleSheet } from 'react-native';
+import { View,
+    Text,
+    StyleSheet
+} from 'react-native';
 
-import { BasePage, Carousel, Button } from 'teaset';
+import { BasePage,
+    Carousel,
+    Button
+} from 'teaset';
 
 import MainScreen from "./MainScreen";
 
+/**
+ * 应用欢迎界面，在第一次进入应用时呈现给用户
+ */
 export default class WelcomeScreen extends BasePage {
     renderPage() {
+        // 由若干图片组成跑马灯
         return(
             <Carousel style={styles.container}
                       carousel={false}

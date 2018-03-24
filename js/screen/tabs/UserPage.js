@@ -1,8 +1,13 @@
 import React from 'react';
 
-import { NavigationPage, ListRow } from 'teaset'
+import { NavigationPage,
+    ListRow
+} from 'teaset'
 import SettingScreen from "../SettingScreen";
 
+/**
+ * 用户页面
+ */
 export default class UserPage extends NavigationPage {
     static defaultProps = {
         ...NavigationPage.defaultProps,
@@ -15,6 +20,7 @@ export default class UserPage extends NavigationPage {
             <ListRow
                 title='设置'
                 onPress={() => {
+                    // 点击进入设置页面
                     this.navigator.push({view: <SettingScreen/>})
                 }}
                 topSeparator='full'
