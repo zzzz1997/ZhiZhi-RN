@@ -69,7 +69,7 @@ const cancelValue = new Animated.Value(0);
 // 取消按钮的映射
 const cancel = cancelValue.interpolate({
     inputRange: [0, 1],
-    outputRange: ['0deg', '90deg']
+    outputRange: ['0deg', '225deg']
 });
 
 // 记录最后一次点击返回键的时间

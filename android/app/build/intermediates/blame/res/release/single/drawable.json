@@ -28,16 +28,16 @@
         "source": "C:\\Users\\asus\\Desktop\\development\\ZhiZhi\\android\\app\\build\\intermediates\\exploded-aar\\ZhiZhi\\react-native-smart-barcode\\unspecified\\res\\drawable\\seek_bkg.9.png"
     },
     {
-        "merged": "C:\\Users\\asus\\Desktop\\development\\ZhiZhi\\android\\app\\build\\intermediates\\res\\merged\\release\\drawable\\abc_tab_indicator_material.xml",
-        "source": "C:\\Users\\asus\\Desktop\\development\\ZhiZhi\\android\\app\\build\\intermediates\\exploded-aar\\com.android.support\\appcompat-v7\\23.4.0\\res\\drawable\\abc_tab_indicator_material.xml"
+        "merged": "C:\\Users\\asus\\Desktop\\development\\ZhiZhi\\android\\app\\build\\intermediates\\res\\merged\\release\\drawable\\abc_dialog_material_background_light.xml",
+        "source": "C:\\Users\\asus\\Desktop\\development\\ZhiZhi\\android\\app\\build\\intermediates\\exploded-aar\\com.android.support\\appcompat-v7\\23.4.0\\res\\drawable\\abc_dialog_material_background_light.xml"
     },
     {
         "merged": "C:\\Users\\asus\\Desktop\\development\\ZhiZhi\\android\\app\\build\\intermediates\\res\\merged\\release\\drawable\\abc_ratingbar_small_material.xml",
         "source": "C:\\Users\\asus\\Desktop\\development\\ZhiZhi\\android\\app\\build\\intermediates\\exploded-aar\\com.android.support\\appcompat-v7\\23.4.0\\res\\drawable\\abc_ratingbar_small_material.xml"
     },
     {
-        "merged": "C:\\Users\\asus\\Desktop\\development\\ZhiZhi\\android\\app\\build\\intermediates\\res\\merged\\release\\drawable\\abc_dialog_material_background_light.xml",
-        "source": "C:\\Users\\asus\\Desktop\\development\\ZhiZhi\\android\\app\\build\\intermediates\\exploded-aar\\com.android.support\\appcompat-v7\\23.4.0\\res\\drawable\\abc_dialog_material_background_light.xml"
+        "merged": "C:\\Users\\asus\\Desktop\\development\\ZhiZhi\\android\\app\\build\\intermediates\\res\\merged\\release\\drawable\\abc_tab_indicator_material.xml",
+        "source": "C:\\Users\\asus\\Desktop\\development\\ZhiZhi\\android\\app\\build\\intermediates\\exploded-aar\\com.android.support\\appcompat-v7\\23.4.0\\res\\drawable\\abc_tab_indicator_material.xml"
     },
     {
         "merged": "C:\\Users\\asus\\Desktop\\development\\ZhiZhi\\android\\app\\build\\intermediates\\res\\merged\\release\\drawable\\abc_seekbar_thumb_material.xml",

@@ -31,6 +31,12 @@ const URL = 'http://restapi.amap.com/v3/geocode/regeo?key=60be2ee5d03cd873218700
  * 选择城市页面
  */
 export default class LocationScreen extends NavigationPage {
+    static defaultProps = {
+        ...NavigationPage.defaultProps,
+        title: '选择城市',
+        showBackButton: true
+    };
+
     constructor(props) {
         super(props);
 
@@ -43,12 +49,6 @@ export default class LocationScreen extends NavigationPage {
             isLoad: false
         };
     }
-
-    static defaultProps = {
-        ...NavigationPage.defaultProps,
-        title: '选择城市',
-        showBackButton: true
-    };
 
     componentDidMount() {
         // 等到动画加载完成，处理初始化操作
