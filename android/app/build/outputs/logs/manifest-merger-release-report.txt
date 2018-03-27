@@ -2,7 +2,7 @@
 manifest
 ADDED from C:\Users\asus\Desktop\development\ZhiZhi\android\app\src\main\AndroidManifest.xml:1:1-33:12
 	package
-		ADDED from C:\Users\asus\Desktop\development\ZhiZhi\android\app\src\main\AndroidManifest.xml:2:5-25
+		ADDED from C:\Users\asus\Desktop\development\ZhiZhi\android\app\src\main\AndroidManifest.xml:2:5-33
 		INJECTED from C:\Users\asus\Desktop\development\ZhiZhi\android\app\src\main\AndroidManifest.xml
 		INJECTED from C:\Users\asus\Desktop\development\ZhiZhi\android\app\src\main\AndroidManifest.xml
 	android:versionName
@@ -61,7 +61,7 @@ MERGED from [org.webkit:android-jsc:r174650] C:\Users\asus\Desktop\development\Z
 		ADDED from C:\Users\asus\Desktop\development\ZhiZhi\android\app\src\main\AndroidManifest.xml:19:7-38
 	android:name
 		ADDED from C:\Users\asus\Desktop\development\ZhiZhi\android\app\src\main\AndroidManifest.xml:15:7-38
-activity#com.zhizhi.MainActivity
+activity#com.amazing.zhizhi.MainActivity
 ADDED from C:\Users\asus\Desktop\development\ZhiZhi\android\app\src\main\AndroidManifest.xml:20:7-29:18
 	android:label
 		ADDED from C:\Users\asus\Desktop\development\ZhiZhi\android\app\src\main\AndroidManifest.xml:22:9-41

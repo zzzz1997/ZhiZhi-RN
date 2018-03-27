@@ -56,15 +56,15 @@
 # view res/layout/abc_screen_simple_overlay_action_mode.xml #generated:32
 -keep class android.support.v7.widget.ViewStubCompat { <init>(...); }
 
+# view AndroidManifest.xml #generated:31
+-keep class com.amazing.zhizhi.MainActivity { <init>(...); }
+
+# view AndroidManifest.xml #generated:25
+-keep class com.amazing.zhizhi.MainApplication { <init>(...); }
+
 # view AndroidManifest.xml #generated:42
 -keep class com.facebook.react.devsupport.DevSettingsActivity { <init>(...); }
 
 # view res/layout/seekbar_layout.xml #generated:5
 -keep class com.qrcode_zxing.view.VerticalSeekBar { <init>(...); }
-
-# view AndroidManifest.xml #generated:31
--keep class com.zhizhi.MainActivity { <init>(...); }
-
-# view AndroidManifest.xml #generated:25
--keep class com.zhizhi.MainApplication { <init>(...); }
 

@@ -1,4 +1,4 @@
-package com.zhizhi;
+package com.amazing.zhizhi;
 
 import android.app.Application;
 

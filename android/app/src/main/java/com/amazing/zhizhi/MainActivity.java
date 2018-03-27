@@ -1,4 +1,4 @@
-package com.zhizhi;
+package com.amazing.zhizhi;
 
 import com.facebook.react.ReactActivity;
 
