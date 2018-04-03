@@ -287,6 +287,11 @@
     <string name="abc_shareactionprovider_share_with_application">Share with %s</string>
     <string name="abc_toolbar_collapse_description">Collapse</string>
     <string name="app_name">职知</string>
+    <string name="bmob_im_notification_contact">个联系人</string>
+    <string name="bmob_im_notification_have">有</string>
+    <string name="bmob_im_notification_msg">条消息</string>
+    <string name="bmob_im_notification_send">发来了</string>
+    <string name="bmob_im_notification_ticker">您有一条新消息</string>
     <string name="catalyst_copy_button" project="catalyst" translatable="false">Copy</string>
     <string name="catalyst_debugjs" project="catalyst" translatable="false">Debug JS Remotely</string>
     <string name="catalyst_debugjs_nuclide" project="catalyst" translatable="false">Debug JS in Nuclide</string>

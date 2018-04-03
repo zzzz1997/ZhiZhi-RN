@@ -1,8 +1,7 @@
 import React, { Component } from "react";
 
 import { TeaNavigator } from 'teaset'
-
-import SplashScreen from "./js/screen/SplashScreen";
+import SplashScreen from "./app/js/screen/SplashScreen";
 
 /**
  * 应用入口类

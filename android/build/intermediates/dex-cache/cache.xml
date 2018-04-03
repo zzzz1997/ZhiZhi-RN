@@ -3,84 +3,138 @@
 
     <item
         is-multidex="false"
-        jar="C:\Users\asus\Desktop\development\ZhiZhi\android\app\build\intermediates\exploded-aar\ZhiZhi\react-native-smart-barcode\unspecified\jars\classes.jar"
+        jar="C:\Users\zzzz\.gradle\caches\modules-2\files-2.1\com.google.zxing\core\3.2.1\2287494d4f5f9f3a9a2bb6980e3f32053721b315\core-3.2.1.jar"
         jumboMode="false"
         optimize="true"
         revision="23.0.1"
-        sha1="bbc3c4e29c7a74e316eaffc19adf4dfbe1aac057">
-        <dex dex="C:\Users\asus\Desktop\development\ZhiZhi\android\app\build\intermediates\pre-dexed\debug\ZhiZhi-react-native-smart-barcode-unspecified_959dd3d01854cbaa29d44b3f9997ebeb2f718ede.jar" />
+        sha1="2287494d4f5f9f3a9a2bb6980e3f32053721b315">
+        <dex dex="C:\Users\zzzz\Desktop\development\ZhiZhi\android\app\build\intermediates\pre-dexed\debug\core-3.2.1_b019e511268b589625e8e4524668257813aa161f.jar" />
     </item>
     <item
         is-multidex="false"
-        jar="C:\Users\asus\.gradle\caches\modules-2\files-2.1\com.squareup.okhttp3\okhttp-urlconnection\3.6.0\3f9b16b774f2c36cfd86dd2053d0b3059531dacc\okhttp-urlconnection-3.6.0.jar"
+        jar="C:\Users\zzzz\.gradle\caches\modules-2\files-2.1\com.squareup.okhttp3\okhttp\3.6.0\69edde9fc4b01c9fd51d25b83428837478c27254\okhttp-3.6.0.jar"
         jumboMode="false"
         optimize="true"
         revision="23.0.1"
-        sha1="3f9b16b774f2c36cfd86dd2053d0b3059531dacc">
-        <dex dex="C:\Users\asus\Desktop\development\ZhiZhi\android\app\build\intermediates\pre-dexed\debug\okhttp-urlconnection-3.6.0_5d3dfe0c567b1329e6819d253d3f910e3b09264c.jar" />
+        sha1="69edde9fc4b01c9fd51d25b83428837478c27254">
+        <dex dex="C:\Users\zzzz\Desktop\development\ZhiZhi\android\app\build\intermediates\pre-dexed\debug\okhttp-3.6.0_bfb110d5655cbd1dee08f766ae9b1ea46fcac263.jar" />
     </item>
     <item
         is-multidex="false"
-        jar="C:\Users\asus\Desktop\development\ZhiZhi\android\app\build\intermediates\exploded-aar\com.android.support\support-vector-drawable\23.4.0\jars\classes.jar"
-        jumboMode="false"
-        optimize="true"
-        revision="23.0.1"
-        sha1="c2c594cace5d83a3227b2b6e658ecbfd586d3ed9">
-        <dex dex="C:\Users\asus\Desktop\development\ZhiZhi\android\app\build\intermediates\pre-dexed\debug\com.android.support-support-vector-drawable-23.4.0_0eba4140f4fec97d8f452833504b46935154a5eb.jar" />
-    </item>
-    <item
-        is-multidex="false"
-        jar="C:\Users\asus\.gradle\caches\modules-2\files-2.1\com.parse.bolts\bolts-tasks\1.4.0\d85884acf6810a3bbbecb587f239005cbc846dc4\bolts-tasks-1.4.0.jar"
-        jumboMode="false"
-        optimize="true"
-        revision="23.0.1"
-        sha1="d85884acf6810a3bbbecb587f239005cbc846dc4">
-        <dex dex="C:\Users\asus\Desktop\development\ZhiZhi\android\app\build\intermediates\pre-dexed\debug\bolts-tasks-1.4.0_d89e0688114efa023280d05c618f49f972c2c90f.jar" />
-    </item>
-    <item
-        is-multidex="false"
-        jar="C:\Users\asus\Desktop\development\ZhiZhi\android\app\build\intermediates\exploded-aar\com.facebook.fresco\imagepipeline-base\1.3.0\jars\classes.jar"
+        jar="C:\Users\zzzz\Desktop\development\ZhiZhi\android\app\build\intermediates\exploded-aar\com.facebook.fresco\imagepipeline-base\1.3.0\jars\classes.jar"
         jumboMode="false"
         optimize="true"
         revision="23.0.1"
         sha1="72128af126ddd7d6252da9357fe560d3abcdfb0c">
-        <dex dex="C:\Users\asus\Desktop\development\ZhiZhi\android\app\build\intermediates\pre-dexed\debug\com.facebook.fresco-imagepipeline-base-1.3.0_f01ff018651f3b0030e162b5d10fbe2d5d2624f8.jar" />
+        <dex dex="C:\Users\zzzz\Desktop\development\ZhiZhi\android\app\build\intermediates\pre-dexed\debug\com.facebook.fresco-imagepipeline-base-1.3.0_b95ca31fac8b20abc648011f32510de301c68fc2.jar" />
     </item>
     <item
         is-multidex="false"
-        jar="C:\Users\asus\Desktop\development\ZhiZhi\android\app\build\intermediates\exploded-aar\com.facebook.react\react-native\0.54.2\jars\classes.jar"
+        jar="C:\Users\zzzz\Desktop\development\ZhiZhi\android\app\build\intermediates\exploded-aar\com.android.support\support-v4\23.4.0\jars\libs\internal_impl-23.4.0.jar"
         jumboMode="false"
         optimize="true"
         revision="23.0.1"
-        sha1="112e6935caed6ca1c65d627777c76f0296f62867">
-        <dex dex="C:\Users\asus\Desktop\development\ZhiZhi\android\app\build\intermediates\pre-dexed\debug\com.facebook.react-react-native-0.54.2_bd1e9f7e43762df8deecbc815fb0c80cd26c94b3.jar" />
+        sha1="ea3c07504d2c8f4b13aa17c45c1b68ed9c1c3674">
+        <dex dex="C:\Users\zzzz\Desktop\development\ZhiZhi\android\app\build\intermediates\pre-dexed\debug\internal_impl-23.4.0_65b0a6a66fc962cb281b8243a4cba1573e931f55.jar" />
     </item>
     <item
         is-multidex="false"
-        jar="C:\Users\asus\Desktop\development\ZhiZhi\android\app\build\intermediates\exploded-aar\com.facebook.fbui.textlayoutbuilder\textlayoutbuilder\1.0.0\jars\classes.jar"
+        jar="C:\Users\zzzz\Desktop\development\ZhiZhi\android\app\build\intermediates\exploded-aar\com.facebook.fresco\drawee\1.3.0\jars\classes.jar"
         jumboMode="false"
         optimize="true"
         revision="23.0.1"
-        sha1="f90b593491e4044903f0bbf68dc3fa2790b151b9">
-        <dex dex="C:\Users\asus\Desktop\development\ZhiZhi\android\app\build\intermediates\pre-dexed\debug\com.facebook.fbui.textlayoutbuilder-textlayoutbuilder-1.0.0_496fa9f99224a5ea744760ffa300510478984413.jar" />
+        sha1="c65a2e39d54023bac3aef64a2f0cff89289c7ff6">
+        <dex dex="C:\Users\zzzz\Desktop\development\ZhiZhi\android\app\build\intermediates\pre-dexed\debug\com.facebook.fresco-drawee-1.3.0_a83d056ca2a3b1b195980eba79f64d132cd5325d.jar" />
     </item>
     <item
         is-multidex="false"
-        jar="C:\Users\asus\Desktop\development\ZhiZhi\android\app\build\intermediates\exploded-aar\com.facebook.fresco\imagepipeline-okhttp3\1.3.0\jars\classes.jar"
+        jar="C:\Users\zzzz\Desktop\development\ZhiZhi\android\app\build\intermediates\exploded-aar\ZhiZhi\react-native-vector-icons\unspecified\jars\classes.jar"
         jumboMode="false"
         optimize="true"
         revision="23.0.1"
-        sha1="c03c08c9934b23c8c09c803345ec51a74119127b">
-        <dex dex="C:\Users\asus\Desktop\development\ZhiZhi\android\app\build\intermediates\pre-dexed\debug\com.facebook.fresco-imagepipeline-okhttp3-1.3.0_c81315b4b49a21b92aac21374439f21d2fed9dee.jar" />
+        sha1="279750fed3c920d06351dbf32889c1b48203c7ad">
+        <dex dex="C:\Users\zzzz\Desktop\development\ZhiZhi\android\app\build\intermediates\pre-dexed\debug\ZhiZhi-react-native-vector-icons-unspecified_45be172d3c02c9e58cc4cee60b1bacce7e828ffb.jar" />
     </item>
     <item
         is-multidex="false"
-        jar="C:\Users\asus\Desktop\development\ZhiZhi\android\app\build\intermediates\exploded-aar\com.facebook.react\react-native\0.54.2\jars\libs\infer-annotations-4.0.jar"
+        jar="C:\Users\zzzz\.gradle\caches\modules-2\files-2.1\com.google.code.findbugs\jsr305\3.0.0\5871fb60dc68d67da54a663c3fd636a10a532948\jsr305-3.0.0.jar"
         jumboMode="false"
         optimize="true"
         revision="23.0.1"
-        sha1="9809e90be788acdb479b2b44e2112f3295a03068">
-        <dex dex="C:\Users\asus\Desktop\development\ZhiZhi\android\app\build\intermediates\pre-dexed\debug\infer-annotations-4.0_e2e04424df280a1e44413829f221749085a63261.jar" />
+        sha1="5871fb60dc68d67da54a663c3fd636a10a532948">
+        <dex dex="C:\Users\zzzz\Desktop\development\ZhiZhi\android\app\build\intermediates\pre-dexed\debug\jsr305-3.0.0_50225ce180727e9fc15c0885ba56e966713fe17b.jar" />
+    </item>
+    <item
+        is-multidex="false"
+        jar="C:\Users\zzzz\.gradle\caches\modules-2\files-2.1\com.parse.bolts\bolts-tasks\1.4.0\d85884acf6810a3bbbecb587f239005cbc846dc4\bolts-tasks-1.4.0.jar"
+        jumboMode="false"
+        optimize="true"
+        revision="23.0.1"
+        sha1="d85884acf6810a3bbbecb587f239005cbc846dc4">
+        <dex dex="C:\Users\zzzz\Desktop\development\ZhiZhi\android\app\build\intermediates\pre-dexed\debug\bolts-tasks-1.4.0_0445d6a406eceff3c50cb050d116fdae1970dc13.jar" />
+    </item>
+    <item
+        is-multidex="false"
+        jar="C:\Users\zzzz\Desktop\development\ZhiZhi\android\app\build\intermediates\exploded-aar\com.facebook.fresco\fbcore\1.3.0\jars\classes.jar"
+        jumboMode="false"
+        optimize="true"
+        revision="23.0.1"
+        sha1="37345de2ed2772f385eaeec37a9c2ff0fea99ad7">
+        <dex dex="C:\Users\zzzz\Desktop\development\ZhiZhi\android\app\build\intermediates\pre-dexed\debug\com.facebook.fresco-fbcore-1.3.0_29c3b28bda40616f777af4397a0b02308f8454cb.jar" />
+    </item>
+    <item
+        is-multidex="false"
+        jar="C:\Users\zzzz\Desktop\development\ZhiZhi\android\app\libs\BmobSDK_3.6.0_20180321.jar"
+        jumboMode="false"
+        optimize="true"
+        revision="23.0.1"
+        sha1="1deca550e633c10c73f9e519e038b375a7fdd1cb">
+        <dex dex="C:\Users\zzzz\Desktop\development\ZhiZhi\android\app\build\intermediates\pre-dexed\debug\BmobSDK_3.6.0_20180321_b474a732868d7ec64aabb0ba4531ab50da0a2b47.jar" />
+    </item>
+    <item
+        is-multidex="false"
+        jar="C:\Users\zzzz\Desktop\development\ZhiZhi\android\app\build\intermediates\exploded-aar\com.facebook.fresco\imagepipeline\1.3.0\jars\classes.jar"
+        jumboMode="false"
+        optimize="true"
+        revision="23.0.1"
+        sha1="48c7f54c2515a2312d3a4481d10c43fbb807f3af">
+        <dex dex="C:\Users\zzzz\Desktop\development\ZhiZhi\android\app\build\intermediates\pre-dexed\debug\com.facebook.fresco-imagepipeline-1.3.0_3b829b7171b3cc20c489aa9f4e5ab73f4b0fee42.jar" />
+    </item>
+    <item
+        is-multidex="false"
+        jar="C:\Users\zzzz\Desktop\development\ZhiZhi\android\app\build\intermediates\exploded-aar\com.android.support\animated-vector-drawable\23.4.0\jars\classes.jar"
+        jumboMode="false"
+        optimize="true"
+        revision="23.0.1"
+        sha1="de4db3785756bfb0915a9f59a9b3f2fea7407be4">
+        <dex dex="C:\Users\zzzz\Desktop\development\ZhiZhi\android\app\build\intermediates\pre-dexed\debug\com.android.support-animated-vector-drawable-23.4.0_e98654765ae584b9c632c526c22d53c93df15e27.jar" />
+    </item>
+    <item
+        is-multidex="false"
+        jar="C:\Users\zzzz\.gradle\caches\modules-2\files-2.1\com.squareup.okio\okio\1.13.0\a9283170b7305c8d92d25aff02a6ab7e45d06cbe\okio-1.13.0.jar"
+        jumboMode="false"
+        optimize="true"
+        revision="23.0.1"
+        sha1="a9283170b7305c8d92d25aff02a6ab7e45d06cbe">
+        <dex dex="C:\Users\zzzz\Desktop\development\ZhiZhi\android\app\build\intermediates\pre-dexed\debug\okio-1.13.0_2a9070f9eae584a0248de89aa7b2c90bc2bdf5db.jar" />
+    </item>
+    <item
+        is-multidex="false"
+        jar="C:\Users\zzzz\Desktop\development\ZhiZhi\android\app\libs\rxandroid-1.2.0.jar"
+        jumboMode="false"
+        optimize="true"
+        revision="23.0.1"
+        sha1="927e8ef5711b115b65b2f35495d77352be2b3c09">
+        <dex dex="C:\Users\zzzz\Desktop\development\ZhiZhi\android\app\build\intermediates\pre-dexed\debug\rxandroid-1.2.0_05168c26f9818577f5dcedf512dc336e6f8f6955.jar" />
+    </item>
+    <item
+        is-multidex="false"
+        jar="C:\Users\zzzz\.gradle\caches\modules-2\files-2.1\javax.inject\javax.inject\1\6975da39a7040257bd51d21a231b76c915872d38\javax.inject-1.jar"
+        jumboMode="false"
+        optimize="true"
+        revision="23.0.1"
+        sha1="6975da39a7040257bd51d21a231b76c915872d38">
+        <dex dex="C:\Users\zzzz\Desktop\development\ZhiZhi\android\app\build\intermediates\pre-dexed\debug\javax.inject-1_6af65bf3b3a3f2f567ca8a0d2d9e51d00f19983a.jar" />
     </item>
     <item
         is-multidex="false"
@@ -89,151 +143,151 @@
         optimize="true"
         revision="23.0.1"
         sha1="ffbe55fdb2bb456b1485831706a9eac3300bb6b8">
-        <dex dex="C:\Users\asus\Desktop\development\ZhiZhi\android\app\build\intermediates\pre-dexed\debug\support-annotations-23.4.0_7a184c255e843ca82a0e7670c076d59adad5e2aa.jar" />
+        <dex dex="C:\Users\zzzz\Desktop\development\ZhiZhi\android\app\build\intermediates\pre-dexed\debug\support-annotations-23.4.0_7a184c255e843ca82a0e7670c076d59adad5e2aa.jar" />
     </item>
     <item
         is-multidex="false"
-        jar="C:\Users\asus\.gradle\caches\modules-2\files-2.1\com.facebook.fbui.textlayoutbuilder\staticlayout-proxy\1.0\f162442a19fff13995fbd51ba414d9ee05579080\staticlayout-proxy-1.0.jar"
+        jar="C:\Users\zzzz\Desktop\development\ZhiZhi\android\app\libs\androidasync-2.1.6.jar"
         jumboMode="false"
         optimize="true"
         revision="23.0.1"
-        sha1="f162442a19fff13995fbd51ba414d9ee05579080">
-        <dex dex="C:\Users\asus\Desktop\development\ZhiZhi\android\app\build\intermediates\pre-dexed\debug\staticlayout-proxy-1.0_3048fa4be9bbeec19b04c2fd4d5129afcba10cf1.jar" />
+        sha1="e3d5f6ab2003e31f2cf5ea61b4731a21e9517935">
+        <dex dex="C:\Users\zzzz\Desktop\development\ZhiZhi\android\app\build\intermediates\pre-dexed\debug\androidasync-2.1.6_e803f196b1ab9f5d27fcde26d6ccac869ddfa53b.jar" />
     </item>
     <item
         is-multidex="false"
-        jar="C:\Users\asus\.gradle\caches\modules-2\files-2.1\com.squareup.okhttp3\okhttp\3.6.0\69edde9fc4b01c9fd51d25b83428837478c27254\okhttp-3.6.0.jar"
+        jar="C:\Users\zzzz\Desktop\development\ZhiZhi\android\app\build\intermediates\exploded-aar\com.facebook.fbui.textlayoutbuilder\textlayoutbuilder\1.0.0\jars\classes.jar"
         jumboMode="false"
         optimize="true"
         revision="23.0.1"
-        sha1="69edde9fc4b01c9fd51d25b83428837478c27254">
-        <dex dex="C:\Users\asus\Desktop\development\ZhiZhi\android\app\build\intermediates\pre-dexed\debug\okhttp-3.6.0_49685f6472b21b675bb4858c5e6f3b570f83d208.jar" />
+        sha1="f90b593491e4044903f0bbf68dc3fa2790b151b9">
+        <dex dex="C:\Users\zzzz\Desktop\development\ZhiZhi\android\app\build\intermediates\pre-dexed\debug\com.facebook.fbui.textlayoutbuilder-textlayoutbuilder-1.0.0_2a827371856b0c52448b3657972f1bb399d5813b.jar" />
     </item>
     <item
         is-multidex="false"
-        jar="C:\Users\asus\.gradle\caches\modules-2\files-2.1\javax.inject\javax.inject\1\6975da39a7040257bd51d21a231b76c915872d38\javax.inject-1.jar"
+        jar="C:\Users\zzzz\Desktop\development\ZhiZhi\android\app\build\intermediates\exploded-aar\com.facebook.react\react-native\0.54.2\jars\classes.jar"
         jumboMode="false"
         optimize="true"
         revision="23.0.1"
-        sha1="6975da39a7040257bd51d21a231b76c915872d38">
-        <dex dex="C:\Users\asus\Desktop\development\ZhiZhi\android\app\build\intermediates\pre-dexed\debug\javax.inject-1_40c157be4f7de9fbc654216d3d21dc05cff1c768.jar" />
+        sha1="112e6935caed6ca1c65d627777c76f0296f62867">
+        <dex dex="C:\Users\zzzz\Desktop\development\ZhiZhi\android\app\build\intermediates\pre-dexed\debug\com.facebook.react-react-native-0.54.2_8e0678859684be84286510a17a33f918832e68eb.jar" />
     </item>
     <item
         is-multidex="false"
-        jar="C:\Users\asus\Desktop\development\ZhiZhi\android\app\build\intermediates\exploded-aar\com.android.support\support-v4\23.4.0\jars\classes.jar"
-        jumboMode="false"
-        optimize="true"
-        revision="23.0.1"
-        sha1="67bd36ee9340ec7c254108936ad16b24bed160cc">
-        <dex dex="C:\Users\asus\Desktop\development\ZhiZhi\android\app\build\intermediates\pre-dexed\debug\com.android.support-support-v4-23.4.0_d0363989684ea457f03146cbdf835613150aa60e.jar" />
-    </item>
-    <item
-        is-multidex="false"
-        jar="C:\Users\asus\Desktop\development\ZhiZhi\android\app\build\intermediates\exploded-aar\com.facebook.fresco\fresco\1.3.0\jars\classes.jar"
-        jumboMode="false"
-        optimize="true"
-        revision="23.0.1"
-        sha1="fe85b87215e405f5917d40ae4960488ac9224b74">
-        <dex dex="C:\Users\asus\Desktop\development\ZhiZhi\android\app\build\intermediates\pre-dexed\debug\com.facebook.fresco-fresco-1.3.0_138de1fecd328033eb57b591c7e4ec28fd2601c0.jar" />
-    </item>
-    <item
-        is-multidex="false"
-        jar="C:\Users\asus\Desktop\development\ZhiZhi\android\app\build\intermediates\exploded-aar\com.facebook.fresco\drawee\1.3.0\jars\classes.jar"
-        jumboMode="false"
-        optimize="true"
-        revision="23.0.1"
-        sha1="c65a2e39d54023bac3aef64a2f0cff89289c7ff6">
-        <dex dex="C:\Users\asus\Desktop\development\ZhiZhi\android\app\build\intermediates\pre-dexed\debug\com.facebook.fresco-drawee-1.3.0_c4c408f638ce1909a8fd05c66720e8fa9545aeff.jar" />
-    </item>
-    <item
-        is-multidex="false"
-        jar="C:\Users\asus\Desktop\development\ZhiZhi\android\app\build\intermediates\exploded-aar\com.android.support\appcompat-v7\23.4.0\jars\classes.jar"
-        jumboMode="false"
-        optimize="true"
-        revision="23.0.1"
-        sha1="548f06de403a9409f00554b3ee12a9fdea0e236c">
-        <dex dex="C:\Users\asus\Desktop\development\ZhiZhi\android\app\build\intermediates\pre-dexed\debug\com.android.support-appcompat-v7-23.4.0_f3e2607a7ada1a47ad9ed658d61790e2a7703c8f.jar" />
-    </item>
-    <item
-        is-multidex="false"
-        jar="C:\Users\asus\Desktop\development\ZhiZhi\android\app\build\intermediates\exploded-aar\com.android.support\animated-vector-drawable\23.4.0\jars\classes.jar"
-        jumboMode="false"
-        optimize="true"
-        revision="23.0.1"
-        sha1="de4db3785756bfb0915a9f59a9b3f2fea7407be4">
-        <dex dex="C:\Users\asus\Desktop\development\ZhiZhi\android\app\build\intermediates\pre-dexed\debug\com.android.support-animated-vector-drawable-23.4.0_0eb9d5d43b6283573dfefdb128c752c8884d02fd.jar" />
-    </item>
-    <item
-        is-multidex="false"
-        jar="C:\Users\asus\Desktop\development\ZhiZhi\android\app\build\intermediates\exploded-aar\com.facebook.soloader\soloader\0.1.0\jars\classes.jar"
+        jar="C:\Users\zzzz\Desktop\development\ZhiZhi\android\app\build\intermediates\exploded-aar\com.facebook.soloader\soloader\0.1.0\jars\classes.jar"
         jumboMode="false"
         optimize="true"
         revision="23.0.1"
         sha1="8f615bca00639150c9eb6175d4b5471193f70794">
-        <dex dex="C:\Users\asus\Desktop\development\ZhiZhi\android\app\build\intermediates\pre-dexed\debug\com.facebook.soloader-soloader-0.1.0_ebdcaff8e1a6d3daa303b63e376e6eaddb8e1cb5.jar" />
+        <dex dex="C:\Users\zzzz\Desktop\development\ZhiZhi\android\app\build\intermediates\pre-dexed\debug\com.facebook.soloader-soloader-0.1.0_36e9441880fd2a230b0a84ad4db0364a0dc69b99.jar" />
     </item>
     <item
         is-multidex="false"
-        jar="C:\Users\asus\Desktop\development\ZhiZhi\android\app\build\intermediates\exploded-aar\com.android.support\support-v4\23.4.0\jars\libs\internal_impl-23.4.0.jar"
+        jar="C:\Users\zzzz\Desktop\development\ZhiZhi\android\app\build\intermediates\exploded-aar\com.facebook.fresco\fresco\1.3.0\jars\classes.jar"
         jumboMode="false"
         optimize="true"
         revision="23.0.1"
-        sha1="ea3c07504d2c8f4b13aa17c45c1b68ed9c1c3674">
-        <dex dex="C:\Users\asus\Desktop\development\ZhiZhi\android\app\build\intermediates\pre-dexed\debug\internal_impl-23.4.0_8dd96d8b201cba290671af49925596359f3e3b23.jar" />
+        sha1="fe85b87215e405f5917d40ae4960488ac9224b74">
+        <dex dex="C:\Users\zzzz\Desktop\development\ZhiZhi\android\app\build\intermediates\pre-dexed\debug\com.facebook.fresco-fresco-1.3.0_4d4f8da6cefe337a219a8a2b94bcf56c44cfc4df.jar" />
     </item>
     <item
         is-multidex="false"
-        jar="C:\Users\asus\.gradle\caches\modules-2\files-2.1\com.google.zxing\core\3.2.1\2287494d4f5f9f3a9a2bb6980e3f32053721b315\core-3.2.1.jar"
+        jar="C:\Users\zzzz\Desktop\development\ZhiZhi\android\app\libs\rxjava-1.1.6.jar"
         jumboMode="false"
         optimize="true"
         revision="23.0.1"
-        sha1="2287494d4f5f9f3a9a2bb6980e3f32053721b315">
-        <dex dex="C:\Users\asus\Desktop\development\ZhiZhi\android\app\build\intermediates\pre-dexed\debug\core-3.2.1_f7e409ce8af89cc30630b54d920363c1d119641a.jar" />
+        sha1="2586312cd2b8a511e4c6236736f5a039fc0f2273">
+        <dex dex="C:\Users\zzzz\Desktop\development\ZhiZhi\android\app\build\intermediates\pre-dexed\debug\rxjava-1.1.6_a8d2461fe4ce8e8bfe6a9be561175f1e2bd72b6a.jar" />
     </item>
     <item
         is-multidex="false"
-        jar="C:\Users\asus\.gradle\caches\modules-2\files-2.1\com.squareup.okio\okio\1.13.0\a9283170b7305c8d92d25aff02a6ab7e45d06cbe\okio-1.13.0.jar"
+        jar="C:\Users\zzzz\Desktop\development\ZhiZhi\android\app\libs\gson-2.8.2.jar"
         jumboMode="false"
         optimize="true"
         revision="23.0.1"
-        sha1="a9283170b7305c8d92d25aff02a6ab7e45d06cbe">
-        <dex dex="C:\Users\asus\Desktop\development\ZhiZhi\android\app\build\intermediates\pre-dexed\debug\okio-1.13.0_a544c831678dcdca8c58080f3c02dc9d4b941e30.jar" />
+        sha1="3edcfe49d2c6053a70a2a47e4e1c2f94998a49cf">
+        <dex dex="C:\Users\zzzz\Desktop\development\ZhiZhi\android\app\build\intermediates\pre-dexed\debug\gson-2.8.2_84506fe40e3a609b5089493b4bcdc474cd44e35b.jar" />
     </item>
     <item
         is-multidex="false"
-        jar="C:\Users\asus\Desktop\development\ZhiZhi\android\app\build\intermediates\exploded-aar\com.facebook.fresco\imagepipeline\1.3.0\jars\classes.jar"
+        jar="C:\Users\zzzz\.gradle\caches\modules-2\files-2.1\com.squareup.okhttp3\okhttp-urlconnection\3.6.0\3f9b16b774f2c36cfd86dd2053d0b3059531dacc\okhttp-urlconnection-3.6.0.jar"
         jumboMode="false"
         optimize="true"
         revision="23.0.1"
-        sha1="48c7f54c2515a2312d3a4481d10c43fbb807f3af">
-        <dex dex="C:\Users\asus\Desktop\development\ZhiZhi\android\app\build\intermediates\pre-dexed\debug\com.facebook.fresco-imagepipeline-1.3.0_65a3bd9aed2fd29f1a29eccfe98cefe78d06f947.jar" />
+        sha1="3f9b16b774f2c36cfd86dd2053d0b3059531dacc">
+        <dex dex="C:\Users\zzzz\Desktop\development\ZhiZhi\android\app\build\intermediates\pre-dexed\debug\okhttp-urlconnection-3.6.0_b969980e5f9a791881709e2e806e62682d1c1c48.jar" />
     </item>
     <item
         is-multidex="false"
-        jar="C:\Users\asus\.gradle\caches\modules-2\files-2.1\com.google.code.findbugs\jsr305\3.0.0\5871fb60dc68d67da54a663c3fd636a10a532948\jsr305-3.0.0.jar"
+        jar="C:\Users\zzzz\Desktop\development\ZhiZhi\android\app\build\intermediates\exploded-aar\com.facebook.fresco\imagepipeline-okhttp3\1.3.0\jars\classes.jar"
         jumboMode="false"
         optimize="true"
         revision="23.0.1"
-        sha1="5871fb60dc68d67da54a663c3fd636a10a532948">
-        <dex dex="C:\Users\asus\Desktop\development\ZhiZhi\android\app\build\intermediates\pre-dexed\debug\jsr305-3.0.0_e33cf59340458d12869189d0d7ae80de92f611bd.jar" />
+        sha1="c03c08c9934b23c8c09c803345ec51a74119127b">
+        <dex dex="C:\Users\zzzz\Desktop\development\ZhiZhi\android\app\build\intermediates\pre-dexed\debug\com.facebook.fresco-imagepipeline-okhttp3-1.3.0_5800dfcdd2a7da77bcdd844d6ecd7e1a675a84b3.jar" />
     </item>
     <item
         is-multidex="false"
-        jar="C:\Users\asus\Desktop\development\ZhiZhi\android\app\build\intermediates\exploded-aar\com.facebook.fresco\fbcore\1.3.0\jars\classes.jar"
+        jar="C:\Users\zzzz\.gradle\caches\modules-2\files-2.1\com.facebook.fbui.textlayoutbuilder\staticlayout-proxy\1.0\f162442a19fff13995fbd51ba414d9ee05579080\staticlayout-proxy-1.0.jar"
         jumboMode="false"
         optimize="true"
         revision="23.0.1"
-        sha1="37345de2ed2772f385eaeec37a9c2ff0fea99ad7">
-        <dex dex="C:\Users\asus\Desktop\development\ZhiZhi\android\app\build\intermediates\pre-dexed\debug\com.facebook.fresco-fbcore-1.3.0_cacbf114f872038876016ec34a7950181db4ec51.jar" />
+        sha1="f162442a19fff13995fbd51ba414d9ee05579080">
+        <dex dex="C:\Users\zzzz\Desktop\development\ZhiZhi\android\app\build\intermediates\pre-dexed\debug\staticlayout-proxy-1.0_0889c9f1f47283eb79ba0c4b3b0334a4d15833b4.jar" />
     </item>
     <item
         is-multidex="false"
-        jar="C:\Users\asus\Desktop\development\ZhiZhi\android\app\build\intermediates\exploded-aar\ZhiZhi\react-native-vector-icons\unspecified\jars\classes.jar"
+        jar="C:\Users\zzzz\Desktop\development\ZhiZhi\android\app\build\intermediates\exploded-aar\ZhiZhi\react-native-smart-barcode\unspecified\jars\classes.jar"
         jumboMode="false"
         optimize="true"
         revision="23.0.1"
-        sha1="279750fed3c920d06351dbf32889c1b48203c7ad">
-        <dex dex="C:\Users\asus\Desktop\development\ZhiZhi\android\app\build\intermediates\pre-dexed\debug\ZhiZhi-react-native-vector-icons-unspecified_8312f67e332b6a5bef237019eefdbafeb98a6fee.jar" />
+        sha1="bbc3c4e29c7a74e316eaffc19adf4dfbe1aac057">
+        <dex dex="C:\Users\zzzz\Desktop\development\ZhiZhi\android\app\build\intermediates\pre-dexed\debug\ZhiZhi-react-native-smart-barcode-unspecified_ebe0fb1730baae2cc54b9d20dc20a1f0f3606589.jar" />
+    </item>
+    <item
+        is-multidex="false"
+        jar="C:\Users\zzzz\Desktop\development\ZhiZhi\android\app\build\intermediates\exploded-aar\com.android.support\support-v4\23.4.0\jars\classes.jar"
+        jumboMode="false"
+        optimize="true"
+        revision="23.0.1"
+        sha1="67bd36ee9340ec7c254108936ad16b24bed160cc">
+        <dex dex="C:\Users\zzzz\Desktop\development\ZhiZhi\android\app\build\intermediates\pre-dexed\debug\com.android.support-support-v4-23.4.0_0cbdd73661b426f922a415ef6a4f9b47525219c4.jar" />
+    </item>
+    <item
+        is-multidex="false"
+        jar="C:\Users\zzzz\Desktop\development\ZhiZhi\android\app\libs\BmobNewIM_2.0.9_20170731.jar"
+        jumboMode="false"
+        optimize="true"
+        revision="23.0.1"
+        sha1="9c46f96a5b3f003281c2b086e1f1595435a48a5f">
+        <dex dex="C:\Users\zzzz\Desktop\development\ZhiZhi\android\app\build\intermediates\pre-dexed\debug\BmobNewIM_2.0.9_20170731_f69fd9732ab7fac075d8613fd17fdc994ff69cd5.jar" />
+    </item>
+    <item
+        is-multidex="false"
+        jar="C:\Users\zzzz\Desktop\development\ZhiZhi\android\app\build\intermediates\exploded-aar\com.android.support\support-vector-drawable\23.4.0\jars\classes.jar"
+        jumboMode="false"
+        optimize="true"
+        revision="23.0.1"
+        sha1="c2c594cace5d83a3227b2b6e658ecbfd586d3ed9">
+        <dex dex="C:\Users\zzzz\Desktop\development\ZhiZhi\android\app\build\intermediates\pre-dexed\debug\com.android.support-support-vector-drawable-23.4.0_9343a4b7de7b7fa7092a70e5f9db508dac50d6f3.jar" />
+    </item>
+    <item
+        is-multidex="false"
+        jar="C:\Users\zzzz\Desktop\development\ZhiZhi\android\app\build\intermediates\exploded-aar\com.facebook.react\react-native\0.54.2\jars\libs\infer-annotations-4.0.jar"
+        jumboMode="false"
+        optimize="true"
+        revision="23.0.1"
+        sha1="9809e90be788acdb479b2b44e2112f3295a03068">
+        <dex dex="C:\Users\zzzz\Desktop\development\ZhiZhi\android\app\build\intermediates\pre-dexed\debug\infer-annotations-4.0_9c74500ba691c0a766af243f3470c35ea31947d7.jar" />
+    </item>
+    <item
+        is-multidex="false"
+        jar="C:\Users\zzzz\Desktop\development\ZhiZhi\android\app\build\intermediates\exploded-aar\com.android.support\appcompat-v7\23.4.0\jars\classes.jar"
+        jumboMode="false"
+        optimize="true"
+        revision="23.0.1"
+        sha1="548f06de403a9409f00554b3ee12a9fdea0e236c">
+        <dex dex="C:\Users\zzzz\Desktop\development\ZhiZhi\android\app\build\intermediates\pre-dexed\debug\com.android.support-appcompat-v7-23.4.0_aca9e56ad89dd8367917c5b64a3c71b512298056.jar" />
     </item>
 
 </items>
